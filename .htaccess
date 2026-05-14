@@ -1,0 +1,19 @@
+# DorkMe.com Apache static SPA routing
+# Serve the static entry point for client-side routes such as /tools.
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Preserve real files and directories.
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Fallback all client-side routes to the SPA entry point.
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# Avoid broken host-level ErrorDocument behavior for missing static routes.
+ErrorDocument 404 /index.html
