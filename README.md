@@ -8,4 +8,4 @@ The repository contains the homepage HTML, compiled JavaScript and CSS bundles, 
 
 ## Testing notes
 
-The homepage at `https://dorkme.com/` loaded successfully during upload preparation. The `/tools` route returned a `500 Internal Server Error`; details are recorded in `SITE_FINDINGS.md`.
+The homepage at `https://dorkme.com/` loaded successfully during upload preparation. The live `/tools` route returned a `500 Internal Server Error` at capture time, so this repository includes `tools/index.html` as a static route fallback for hosts that serve directory index files.

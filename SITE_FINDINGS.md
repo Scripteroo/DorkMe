@@ -15,6 +15,6 @@ Key homepage claims and content observed:
 | Ethics section | Self-check first, no scraping in v0, explicit actions, attribution |
 | Assets observed | `/media/dorkme-logo.png` and three CloudFront `.webp` images |
 
-The `/tools` route at `https://dorkme.com/tools` returned **500 Internal Server Error** during testing. The error page listed contact `webmaster@dorkme.reignsnap.io`, suggesting the deployed route is currently misconfigured or missing server-side support.
+The `/tools` route at `https://dorkme.com/tools` returned **500 Internal Server Error** during testing. The error page listed contact `webmaster@dorkme.reignsnap.io`, suggesting the deployed route was misconfigured or missing server-side support at capture time. The uploaded repository now includes `tools/index.html`, copied from the SPA entry point, so static hosts that serve directory indexes can load the client-side tools route at `/tools/`.
 
 The homepage HTML was saved by the browser to `/home/ubuntu/browser_html/dorkme_com_page_1778793563610.html` for analysis.
