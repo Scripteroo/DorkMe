@@ -26,3 +26,9 @@ jobs:
             **/.git*
             **/.git*/**
             **/node_modules/**
+            import/**
+            docs/**
+            scripts/**
+            **/*.md
+            .gitignore
+            .editorconfig
