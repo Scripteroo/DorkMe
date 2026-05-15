@@ -210,8 +210,11 @@
   {
     "id": "geospy",
     "name": "Geospy",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://geospy.ai/",
     "urlTemplate": "",
     "description": "",
@@ -1354,8 +1357,10 @@
   {
     "id": "digital-footprint-checker",
     "name": "Digital Footprint Checker",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://www.digitalfootprintcheck.com/free-checker.html",
     "urlTemplate": "",
     "description": "",
@@ -1471,8 +1476,10 @@
   {
     "id": "protonmail",
     "name": "ProtonMail",
-    "category": "general",
-    "inputTypes": [],
+    "category": "email",
+    "inputTypes": [
+      "email"
+    ],
     "url": "https://protonmail.com/",
     "urlTemplate": "",
     "description": "",
@@ -2484,8 +2491,11 @@
   {
     "id": "amass",
     "name": "Amass",
-    "category": "general",
-    "inputTypes": [],
+    "category": "domain",
+    "inputTypes": [
+      "domain",
+      "url"
+    ],
     "url": "https://github.com/owasp-amass/amass",
     "urlTemplate": "",
     "description": "",
@@ -2497,7 +2507,7 @@
   {
     "id": "codefinder",
     "name": "Codefinder",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "http://codefinder.org/",
     "urlTemplate": "",
@@ -2510,7 +2520,7 @@
   {
     "id": "gist",
     "name": "Gist",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://gist.github.com/",
     "urlTemplate": "",
@@ -2523,7 +2533,7 @@
   {
     "id": "github",
     "name": "GitHub",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://github.com/",
     "urlTemplate": "",
@@ -2536,7 +2546,7 @@
   {
     "id": "github-advanced-search",
     "name": "GitHub Advanced Search",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://github.com/search/advanced",
     "urlTemplate": "",
@@ -2549,7 +2559,7 @@
   {
     "id": "gitlab",
     "name": "GitLab",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://gitlab.com/explore",
     "urlTemplate": "",
@@ -2601,7 +2611,7 @@
   {
     "id": "photon",
     "name": "Photon",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://github.com/s0md3v/Photon",
     "urlTemplate": "",
@@ -2614,7 +2624,7 @@
   {
     "id": "sourcegraph",
     "name": "Sourcegraph",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://sourcegraph.com/search",
     "urlTemplate": "",
@@ -2653,8 +2663,10 @@
   {
     "id": "theharvester",
     "name": "theHarvester",
-    "category": "general",
-    "inputTypes": [],
+    "category": "email",
+    "inputTypes": [
+      "email"
+    ],
     "url": "https://github.com/laramies/theHarvester",
     "urlTemplate": "",
     "description": "",
@@ -2679,8 +2691,10 @@
   {
     "id": "receive-sms-online",
     "name": "Receive SMS Online",
-    "category": "general",
-    "inputTypes": [],
+    "category": "phone",
+    "inputTypes": [
+      "phone"
+    ],
     "url": "http://receive-sms-online.com",
     "urlTemplate": "",
     "description": "",
@@ -2692,8 +2706,10 @@
   {
     "id": "receive-sms-online-2",
     "name": "Receive SMS Online",
-    "category": "general",
-    "inputTypes": [],
+    "category": "phone",
+    "inputTypes": [
+      "phone"
+    ],
     "url": "https://hs3x.com",
     "urlTemplate": "",
     "description": "",
@@ -2705,8 +2721,10 @@
   {
     "id": "receive-sms-online-for-free",
     "name": "Receive SMS Online for FREE",
-    "category": "general",
-    "inputTypes": [],
+    "category": "phone",
+    "inputTypes": [
+      "phone"
+    ],
     "url": "http://freesmsverification.com",
     "urlTemplate": "",
     "description": "",
@@ -2718,8 +2736,10 @@
   {
     "id": "receive-sms-now",
     "name": "Receive-SMS-Now",
-    "category": "general",
-    "inputTypes": [],
+    "category": "phone",
+    "inputTypes": [
+      "phone"
+    ],
     "url": "http://receive-sms-now.com",
     "urlTemplate": "",
     "description": "",
@@ -2731,8 +2751,10 @@
   {
     "id": "sms-to-me",
     "name": "SMS to Me",
-    "category": "general",
-    "inputTypes": [],
+    "category": "phone",
+    "inputTypes": [
+      "phone"
+    ],
     "url": "https://smstome.com",
     "urlTemplate": "",
     "description": "",
@@ -5569,8 +5591,12 @@
   {
     "id": "192",
     "name": "192",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://www.192.com",
     "urlTemplate": "",
     "description": "",
@@ -5595,8 +5621,12 @@
   {
     "id": "411",
     "name": "411",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "http://411.com",
     "urlTemplate": "",
     "description": "",
@@ -5608,7 +5638,7 @@
   {
     "id": "4chansearch-org",
     "name": "4chansearch.org",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://4chansearch.org",
     "urlTemplate": "",
@@ -5621,8 +5651,12 @@
   {
     "id": "51-000-university-of-michigan-employee-salaries",
     "name": "51,000 University of Michigan employee salaries",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.mlive.com/news/ann-arbor/2020/12/see-the-2020-salaries-for-all-45000-university-of-michigan-employees.html",
     "urlTemplate": "",
     "description": "",
@@ -5634,8 +5668,11 @@
   {
     "id": "511on-ca",
     "name": "511on.ca",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://511on.ca",
     "urlTemplate": "",
     "description": "",
@@ -5647,7 +5684,7 @@
   {
     "id": "8chan-8kun-qresearch-board-search",
     "name": "8chan/8kun QResearch Board Search",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://qresear.ch",
     "urlTemplate": "",
@@ -5689,8 +5726,11 @@
   {
     "id": "accuweather",
     "name": "AccuWeather",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.accuweather.com",
     "urlTemplate": "",
     "description": "",
@@ -5702,8 +5742,12 @@
   {
     "id": "addresschecker-eu",
     "name": "Addresschecker.eu",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "http://addresschecker.eu",
     "urlTemplate": "",
     "description": "",
@@ -5728,8 +5772,11 @@
   {
     "id": "ads-b-exchange",
     "name": "ADS-B Exchange",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://globe.adsbexchange.com",
     "urlTemplate": "",
     "description": "",
@@ -5741,8 +5788,10 @@
   {
     "id": "aeroleads",
     "name": "Aeroleads",
-    "category": "general",
-    "inputTypes": [],
+    "category": "email",
+    "inputTypes": [
+      "email"
+    ],
     "url": "https://aeroleads.com",
     "urlTemplate": "",
     "description": "",
@@ -5754,8 +5803,11 @@
   {
     "id": "airborn",
     "name": "Airborn",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://www.airborn.io",
     "urlTemplate": "",
     "description": "",
@@ -5767,8 +5819,11 @@
   {
     "id": "airport-webcams",
     "name": "Airport Webcams",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://airportwebcams.net",
     "urlTemplate": "",
     "description": "",
@@ -5780,8 +5835,11 @@
   {
     "id": "ais-boatnerd-com",
     "name": "Ais.boatnerd.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://ais.boatnerd.com",
     "urlTemplate": "",
     "description": "",
@@ -5793,8 +5851,12 @@
   {
     "id": "alberta-police-misconduct-database",
     "name": "Alberta Police Misconduct Database",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.policemisconductdatabase.ca/database",
     "urlTemplate": "",
     "description": "",
@@ -5806,8 +5868,12 @@
   {
     "id": "alcool-r-gie-des-alcools-des-courses-et-des-jeux-racj",
     "name": "Alcool - Régie des alcools, des courses et des jeux (RACJ)",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.racj.gouv.qc.ca/en/registres-publics/alcool.html",
     "urlTemplate": "",
     "description": "",
@@ -5847,8 +5913,11 @@
   {
     "id": "anomali-strikepoint-api",
     "name": "Anomali StrikePoint API",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://anomali.com/products/api",
     "urlTemplate": "",
     "description": "",
@@ -5860,8 +5929,10 @@
   {
     "id": "anonaddy",
     "name": "AnonAddy",
-    "category": "general",
-    "inputTypes": [],
+    "category": "email",
+    "inputTypes": [
+      "email"
+    ],
     "url": "https://anonaddy.com",
     "urlTemplate": "",
     "description": "",
@@ -5888,8 +5959,10 @@
   {
     "id": "anymailfinder",
     "name": "AnymailFinder",
-    "category": "general",
-    "inputTypes": [],
+    "category": "email",
+    "inputTypes": [
+      "email"
+    ],
     "url": "https://anymailfinder.com",
     "urlTemplate": "",
     "description": "",
@@ -6090,7 +6163,7 @@
   {
     "id": "argumentsearch-com",
     "name": "Argumentsearch.com",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "http://argumentsearch.com",
     "urlTemplate": "",
@@ -6116,8 +6189,10 @@
   {
     "id": "artex",
     "name": "ArtEx",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://www.doubleblak.com/index.php",
     "urlTemplate": "",
     "description": "",
@@ -6129,8 +6204,11 @@
   {
     "id": "arxiv",
     "name": "arXiv",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://arxiv.org",
     "urlTemplate": "",
     "description": "",
@@ -6142,7 +6220,7 @@
   {
     "id": "ask",
     "name": "Ask",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://www.search.ask.com",
     "urlTemplate": "",
@@ -6155,8 +6233,12 @@
   {
     "id": "association-assq-qc-ca",
     "name": "Association-assq.qc.ca",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.association-assq.qc.ca",
     "urlTemplate": "",
     "description": "",
@@ -6168,8 +6250,12 @@
   {
     "id": "atf-law-enforcement-intelligence",
     "name": "ATF – Law Enforcement Intelligence",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.atf.gov",
     "urlTemplate": "",
     "description": "",
@@ -6181,8 +6267,11 @@
   {
     "id": "autocheck",
     "name": "AutoCheck",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://www.autocheck.com",
     "urlTemplate": "",
     "description": "",
@@ -6194,8 +6283,11 @@
   {
     "id": "autodna",
     "name": "autodna",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://www.autodna.com",
     "urlTemplate": "",
     "description": "",
@@ -6207,8 +6299,11 @@
   {
     "id": "autogespot",
     "name": "Autogespot",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://www.autogespot.us/spots",
     "urlTemplate": "",
     "description": "",
@@ -6298,7 +6393,7 @@
   {
     "id": "baidu",
     "name": "Baidu",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://www.baidu.com",
     "urlTemplate": "",
@@ -6311,8 +6406,11 @@
   {
     "id": "banq-num-rique",
     "name": "BAnQ numérique",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://numerique.banq.qc.ca/resultats",
     "urlTemplate": "",
     "description": "",
@@ -6324,8 +6422,11 @@
   {
     "id": "beautiful-news",
     "name": "Beautiful News",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://informationisbeautiful.net/beautifulnews",
     "urlTemplate": "",
     "description": "",
@@ -6376,8 +6477,11 @@
   {
     "id": "bevigil-2",
     "name": "BeVigil",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://bevigil.com",
     "urlTemplate": "",
     "description": "",
@@ -6389,8 +6493,10 @@
   {
     "id": "bibliogram",
     "name": "Bibliogram",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://bib.actionsack.com",
     "urlTemplate": "",
     "description": "",
@@ -6402,8 +6508,10 @@
   {
     "id": "bibliogram-art",
     "name": "Bibliogram.art",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://bibliogram.art",
     "urlTemplate": "",
     "description": "",
@@ -6428,8 +6536,11 @@
   {
     "id": "binparcel-com",
     "name": "Binparcel.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://binparcel.com",
     "urlTemplate": "",
     "description": "",
@@ -6454,8 +6565,10 @@
   {
     "id": "birdhunt",
     "name": "BirdHunt",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://birdhunt.co",
     "urlTemplate": "",
     "description": "",
@@ -6467,7 +6580,7 @@
   {
     "id": "bitbucket-repo-search",
     "name": "Bitbucket Repo Search",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://bitbucket.org/repo/all",
     "urlTemplate": "",
@@ -6493,8 +6606,11 @@
   {
     "id": "blackhole",
     "name": "BlackHole",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://blackhole.run",
     "urlTemplate": "",
     "description": "",
@@ -6558,8 +6674,11 @@
   {
     "id": "bloopbase",
     "name": "Bloopbase",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://bloopbase.keybase.pub",
     "urlTemplate": "",
     "description": "",
@@ -6584,7 +6703,7 @@
   {
     "id": "boardreader-forum-search",
     "name": "Boardreader - Forum Search",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://boardreader.com",
     "urlTemplate": "",
@@ -6597,8 +6716,11 @@
   {
     "id": "boatinfoworld",
     "name": "BoatInfoWorld",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://www.boatinfoworld.com",
     "urlTemplate": "",
     "description": "",
@@ -6623,7 +6745,7 @@
   {
     "id": "boolean-strings-tools",
     "name": "Boolean Strings Tools",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://booleanstrings.com/tools",
     "urlTemplate": "",
@@ -6636,8 +6758,10 @@
   {
     "id": "bot-sentinel-dashboard-bot-sentinel",
     "name": "Bot Sentinel Dashboard ‹ Bot Sentinel",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://botsentinel.com",
     "urlTemplate": "",
     "description": "",
@@ -6649,8 +6773,10 @@
   {
     "id": "botometer-by-osome",
     "name": "Botometer by OSoMe",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://botometer.osome.iu.edu",
     "urlTemplate": "",
     "description": "",
@@ -6662,8 +6788,10 @@
   {
     "id": "botslayer",
     "name": "BotSlayer",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://osome.iu.edu/tools/botslayer",
     "urlTemplate": "",
     "description": "",
@@ -6688,7 +6816,7 @@
   {
     "id": "brave-search",
     "name": "Brave Search",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://search.brave.com",
     "urlTemplate": "",
@@ -6714,8 +6842,12 @@
   {
     "id": "brazillian-address-cep-search",
     "name": "Brazillian Address CEP Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c2abn462.caspio.com/dp/6c2d80006c6adb825b3b45079cb8",
     "urlTemplate": "",
     "description": "",
@@ -6753,8 +6885,12 @@
   {
     "id": "brooklyn-genealogy",
     "name": "Brooklyn Genealogy",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "http://bklyn-genealogy-info.stevemorse.org/index.html",
     "urlTemplate": "",
     "description": "",
@@ -6779,8 +6915,11 @@
   {
     "id": "btdig",
     "name": "btdig",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://btdig.com",
     "urlTemplate": "",
     "description": "",
@@ -6792,8 +6931,12 @@
   {
     "id": "buffalo-police",
     "name": "Buffalo Police",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://airtable.com/embed/shra4F3cAE7H2PV5m",
     "urlTemplate": "",
     "description": "",
@@ -6818,8 +6961,11 @@
   {
     "id": "bunker",
     "name": "Bunker",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://bunker.is",
     "urlTemplate": "",
     "description": "",
@@ -6831,8 +6977,11 @@
   {
     "id": "c4-cams",
     "name": "C4-cams",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "http://c4-cams.qwazwsx.xyz/c4-cams",
     "urlTemplate": "",
     "description": "",
@@ -6844,8 +6993,12 @@
   {
     "id": "cadastral-database-systems",
     "name": "Cadastral Database Systems",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.cadaster.nl",
     "urlTemplate": "",
     "description": "",
@@ -6857,8 +7010,12 @@
   {
     "id": "calls-node-status",
     "name": "Calls Node Status",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.broadcastify.com/calls/status",
     "urlTemplate": "",
     "description": "",
@@ -6870,8 +7027,11 @@
   {
     "id": "camhacker-com",
     "name": "Camhacker.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "https://www.camhacker.com",
     "urlTemplate": "",
     "description": "",
@@ -6883,8 +7043,12 @@
   {
     "id": "canada-411",
     "name": "Canada 411",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://www.canada411.ca",
     "urlTemplate": "",
     "description": "",
@@ -6913,8 +7077,12 @@
   {
     "id": "canadian-importers-database",
     "name": "Canadian Importers Database",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://strategis.ic.gc.ca/eic/site/cid-dic.nsf/eng/home",
     "urlTemplate": "",
     "description": "",
@@ -6926,8 +7094,12 @@
   {
     "id": "canadian-institute-for-health-information",
     "name": "Canadian Institute for Health Information",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.cihi.ca/en",
     "urlTemplate": "",
     "description": "",
@@ -6956,8 +7128,12 @@
   {
     "id": "canadian-resident-database",
     "name": "Canadian Resident Database",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://bloopbase.keybase.pub/POPPY/CANRES/index.html",
     "urlTemplate": "",
     "description": "",
@@ -6982,8 +7158,12 @@
   {
     "id": "cancelthesefunerals-com",
     "name": "Cancelthesefunerals.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "http://cancelthesefunerals.com",
     "urlTemplate": "",
     "description": "",
@@ -6995,8 +7175,12 @@
   {
     "id": "capstat-nyc",
     "name": "CAPstat.nyc",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.capstat.nyc",
     "urlTemplate": "",
     "description": "",
@@ -7008,8 +7192,10 @@
   {
     "id": "cell-id-finder",
     "name": "Cell ID Finder",
-    "category": "general",
-    "inputTypes": [],
+    "category": "phone",
+    "inputTypes": [
+      "phone"
+    ],
     "url": "https://cellidfinder.com",
     "urlTemplate": "",
     "description": "",
@@ -7021,8 +7207,11 @@
   {
     "id": "certificate-search",
     "name": "Certificate Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "domain",
+    "inputTypes": [
+      "domain",
+      "url"
+    ],
     "url": "https://osint.sh/crt",
     "urlTemplate": "",
     "description": "",
@@ -7034,8 +7223,12 @@
   {
     "id": "chartloop",
     "name": "Chartloop",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://buildorgchart.herokuapp.com",
     "urlTemplate": "",
     "description": "",
@@ -7047,7 +7240,7 @@
   {
     "id": "chearch",
     "name": "Chearch",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://adhesivecheese.github.io/chearch",
     "urlTemplate": "",
@@ -7090,8 +7283,11 @@
   {
     "id": "checkphish",
     "name": "Checkphish",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://checkphish.ai",
     "urlTemplate": "",
     "description": "",
@@ -7103,8 +7299,10 @@
   {
     "id": "checkuser",
     "name": "CheckUser",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://checkuser.org",
     "urlTemplate": "",
     "description": "",
@@ -7116,8 +7314,10 @@
   {
     "id": "chibisafe",
     "name": "Chibisafe",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://chibisafe.moe",
     "urlTemplate": "",
     "description": "",
@@ -7129,8 +7329,12 @@
   {
     "id": "chicago-cook-county-genealogy",
     "name": "Chicago Cook County Genealogy",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://stevemorse.org/vital/cook.html",
     "urlTemplate": "",
     "description": "",
@@ -7142,8 +7346,12 @@
   {
     "id": "chicago-police-department-demographics",
     "name": "Chicago Police Department Demographics",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://public.flourish.studio/visualisation/1089756",
     "urlTemplate": "",
     "description": "",
@@ -7220,8 +7428,12 @@
   {
     "id": "citizens-police-data-project",
     "name": "Citizens Police Data Project",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://beta.cpdp.co",
     "urlTemplate": "",
     "description": "",
@@ -7233,8 +7445,11 @@
   {
     "id": "city-webcams-com",
     "name": "city-webcams.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://city-webcams.com",
     "urlTemplate": "",
     "description": "",
@@ -7259,8 +7474,11 @@
   {
     "id": "cloudflare-resolver",
     "name": "Cloudflare Resolver",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "http://www.skypeipresolver.net/cloudflare.php",
     "urlTemplate": "",
     "description": "",
@@ -7272,8 +7490,11 @@
   {
     "id": "cloudflare-resolver-tool",
     "name": "Cloudflare Resolver Tool",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "https://shadowcrypt.net/tools/cloudflare",
     "urlTemplate": "",
     "description": "",
@@ -7298,8 +7519,10 @@
   {
     "id": "clubsearch-search-clubhouse-rooms",
     "name": "ClubSearch -- search Clubhouse rooms",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://clubsearch.io",
     "urlTemplate": "",
     "description": "",
@@ -7363,8 +7586,12 @@
   {
     "id": "completed-access-to-information-requests",
     "name": "Completed Access to Information Requests",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://open.canada.ca/en/search/ati",
     "urlTemplate": "",
     "description": "",
@@ -7376,8 +7603,11 @@
   {
     "id": "container-tracking",
     "name": "Container Tracking",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "http://container-tracking.org",
     "urlTemplate": "",
     "description": "",
@@ -7389,8 +7619,11 @@
   {
     "id": "container-tracking-2",
     "name": "Container tracking",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://www.track-trace.com/container",
     "urlTemplate": "",
     "description": "",
@@ -7415,8 +7648,12 @@
   {
     "id": "corporation-wiki",
     "name": "Corporation Wiki",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://www.corporationwiki.com",
     "urlTemplate": "",
     "description": "",
@@ -7428,8 +7665,12 @@
   {
     "id": "corrections-books-approval-search",
     "name": "Corrections Books Approval Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/0a921000cae47f9702f44d2bb94b",
     "urlTemplate": "",
     "description": "",
@@ -7467,8 +7708,12 @@
   {
     "id": "covidbailouttracker-com",
     "name": "Covidbailouttracker.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://covidbailouttracker.com",
     "urlTemplate": "",
     "description": "",
@@ -7480,8 +7725,11 @@
   {
     "id": "crackstation",
     "name": "CrackStation",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://crackstation.net",
     "urlTemplate": "",
     "description": "",
@@ -7493,8 +7741,12 @@
   {
     "id": "credibly-accused",
     "name": "Credibly Accused",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://projects.propublica.org/credibly-accused",
     "urlTemplate": "",
     "description": "",
@@ -7506,8 +7758,12 @@
   {
     "id": "crewlist-org-uk",
     "name": "Crewlist.org.uk",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.crewlist.org.uk/#Data",
     "urlTemplate": "",
     "description": "",
@@ -7610,8 +7866,11 @@
   {
     "id": "cybersixgill",
     "name": "Cybersixgill",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.cybersixgill.com",
     "urlTemplate": "",
     "description": "",
@@ -7623,8 +7882,11 @@
   {
     "id": "cymon",
     "name": "cymon",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "https://cymon.io",
     "urlTemplate": "",
     "description": "",
@@ -7636,8 +7898,11 @@
   {
     "id": "dark-tracer",
     "name": "Dark Tracer",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://darktracer.io",
     "urlTemplate": "",
     "description": "",
@@ -7649,8 +7914,11 @@
   {
     "id": "darknet-market-list",
     "name": "Darknet Market List",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://darknetlive.com/markets",
     "urlTemplate": "",
     "description": "",
@@ -7662,8 +7930,12 @@
   {
     "id": "darpan-ngo-search",
     "name": "Darpan NGO Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c7ect427.caspio.com/dp/c45e900062d54a7f263942979465",
     "urlTemplate": "",
     "description": "",
@@ -7688,8 +7960,12 @@
   {
     "id": "data-gov",
     "name": "Data.gov",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.data.gov",
     "urlTemplate": "",
     "description": "",
@@ -7701,8 +7977,12 @@
   {
     "id": "data-occrp-org",
     "name": "data.occrp.org",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://data.occrp.org",
     "urlTemplate": "",
     "description": "",
@@ -7714,8 +7994,12 @@
   {
     "id": "data-world",
     "name": "data.world",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://data.world",
     "urlTemplate": "",
     "description": "",
@@ -7727,8 +8011,12 @@
   {
     "id": "databasd",
     "name": "Databasd",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://databasd.com",
     "urlTemplate": "",
     "description": "",
@@ -7740,8 +8028,12 @@
   {
     "id": "database-of-suspected-terrorists",
     "name": "Database of suspected terrorists",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.nsatt.org",
     "urlTemplate": "",
     "description": "",
@@ -7753,8 +8045,12 @@
   {
     "id": "datacore-gn-unepgrid-ch",
     "name": "Datacore-gn.unepgrid.ch",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://datacore-gn.unepgrid.ch",
     "urlTemplate": "",
     "description": "",
@@ -7766,8 +8062,12 @@
   {
     "id": "datasetlist-com",
     "name": "Datasetlist.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.datasetlist.com",
     "urlTemplate": "",
     "description": "",
@@ -7779,8 +8079,12 @@
   {
     "id": "dauphin-county-pa-2017-compensation",
     "name": "Dauphin County PA 2017 Compensation",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/0a921000a2f20d556db84221a92c",
     "urlTemplate": "",
     "description": "",
@@ -7896,7 +8200,7 @@
   {
     "id": "digital-methods-tools",
     "name": "Digital Methods Tools",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://tools.digitalmethods.net/beta/searchEngineScraper",
     "urlTemplate": "",
@@ -7909,8 +8213,11 @@
   {
     "id": "digitalglobe",
     "name": "DigitalGlobe",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://discover.digitalglobe.com",
     "urlTemplate": "",
     "description": "",
@@ -7935,8 +8242,10 @@
   {
     "id": "disboard",
     "name": "DISBOARD",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://disboard.org",
     "urlTemplate": "",
     "description": "",
@@ -7961,8 +8270,11 @@
   {
     "id": "disroot-pastebin",
     "name": "Disroot Pastebin",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://bin.disroot.org",
     "urlTemplate": "",
     "description": "",
@@ -7974,8 +8286,11 @@
   {
     "id": "disroot-upload",
     "name": "Disroot Upload",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://disroot.org/en/services/upload",
     "urlTemplate": "",
     "description": "",
@@ -7987,7 +8302,7 @@
   {
     "id": "document-search",
     "name": "Document Search",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://one-plus.github.io/DocumentSearch",
     "urlTemplate": "",
@@ -8000,8 +8315,10 @@
   {
     "id": "doesfollow",
     "name": "DoesFollow",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://doesfollow.com",
     "urlTemplate": "",
     "description": "",
@@ -8013,7 +8330,7 @@
   {
     "id": "dogpile",
     "name": "Dogpile",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://www.dogpile.com",
     "urlTemplate": "",
@@ -8026,8 +8343,10 @@
   {
     "id": "dotspotter",
     "name": "Dotspotter",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://www.forensicdots.de",
     "urlTemplate": "",
     "description": "",
@@ -8039,7 +8358,7 @@
   {
     "id": "drivesearch-kwebpia-net",
     "name": "Drivesearch.kwebpia.net",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "http://drivesearch.kwebpia.net",
     "urlTemplate": "",
@@ -8052,7 +8371,7 @@
   {
     "id": "duck-duck-go",
     "name": "Duck Duck Go",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://duckduckgo.com",
     "urlTemplate": "",
@@ -8078,8 +8397,11 @@
   {
     "id": "earth",
     "name": "Earth",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://earth.nullschool.net/#current",
     "urlTemplate": "",
     "description": "",
@@ -8091,8 +8413,11 @@
   {
     "id": "earthcam",
     "name": "EarthCam",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.earthcam.com",
     "urlTemplate": "",
     "description": "",
@@ -8120,8 +8445,11 @@
   {
     "id": "eclecticiq-intelligence-platform",
     "name": "EclecticIQ Intelligence Platform",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.eclecticiq.com",
     "urlTemplate": "",
     "description": "",
@@ -8133,7 +8461,7 @@
   {
     "id": "ecosia",
     "name": "Ecosia",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://www.ecosia.org",
     "urlTemplate": "",
@@ -8172,8 +8500,12 @@
   {
     "id": "emporis",
     "name": "EMPORIS",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.emporis.com",
     "urlTemplate": "",
     "description": "",
@@ -8198,8 +8530,12 @@
   {
     "id": "encoding-and-decoding-driver-s-license-numbers",
     "name": "Encoding and Decoding Driver\\'s License Numbers",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://stevemorse.org/dl/dl.html",
     "urlTemplate": "",
     "description": "",
@@ -8211,8 +8547,11 @@
   {
     "id": "encrypted-pastebin",
     "name": "Encrypted Pastebin",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://defuse.ca/pastebin.htm",
     "urlTemplate": "",
     "description": "",
@@ -8224,7 +8563,7 @@
   {
     "id": "engine-presearch-org",
     "name": "Engine.presearch.org",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://engine.presearch.org",
     "urlTemplate": "",
@@ -8276,8 +8615,12 @@
   {
     "id": "ethereum-block-explorer",
     "name": "Ethereum Block Explorer",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://etherscan.io",
     "urlTemplate": "",
     "description": "",
@@ -8306,8 +8649,11 @@
   {
     "id": "europlates-eu",
     "name": "Europlates.eu",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://www.europlates.eu",
     "urlTemplate": "",
     "description": "",
@@ -8345,8 +8691,10 @@
   {
     "id": "explorecams-com",
     "name": "Explorecams.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://explorecams.com",
     "urlTemplate": "",
     "description": "",
@@ -8371,8 +8719,10 @@
   {
     "id": "facesaerch",
     "name": "facesaerch",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "http://www.facesaerch.com",
     "urlTemplate": "",
     "description": "",
@@ -8384,8 +8734,11 @@
   {
     "id": "fact-checking",
     "name": "Fact-Checking",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://reporterslab.org/fact-checking",
     "urlTemplate": "",
     "description": "",
@@ -8397,8 +8750,12 @@
   {
     "id": "fafsa-search-and-report",
     "name": "FAFSA Search and Report",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0dcb948.caspio.com/dp/726780004ccd83a96316450caead",
     "urlTemplate": "",
     "description": "",
@@ -8410,8 +8767,12 @@
   {
     "id": "family-watchdog",
     "name": "Family Watchdog",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.familywatchdog.us",
     "urlTemplate": "",
     "description": "",
@@ -8436,8 +8797,12 @@
   {
     "id": "fao-food-agriculture-data",
     "name": "FAO – Food & Agriculture Data",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.fao.org",
     "urlTemplate": "",
     "description": "",
@@ -8462,8 +8827,12 @@
   {
     "id": "fcc-io",
     "name": "FCC.io",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "http://fcc.io",
     "urlTemplate": "",
     "description": "",
@@ -8514,7 +8883,7 @@
   {
     "id": "filechef-com",
     "name": "Filechef.com",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://www.filechef.com",
     "urlTemplate": "",
@@ -8527,7 +8896,7 @@
   {
     "id": "filepursuit-com",
     "name": "Filepursuit.com",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://filepursuit.com",
     "urlTemplate": "",
@@ -8540,7 +8909,7 @@
   {
     "id": "filetype-search-tool",
     "name": "Filetype search tool",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://www.aware-online.com/en/osint-tools/filetype-search-tool",
     "urlTemplate": "",
@@ -8553,8 +8922,12 @@
   {
     "id": "find-a-teacher",
     "name": "Find a Teacher",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.oct.ca/Home/FindATeacher",
     "urlTemplate": "",
     "description": "",
@@ -8566,8 +8939,10 @@
   {
     "id": "findclone",
     "name": "Findclone",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://findclone.ru",
     "urlTemplate": "",
     "description": "",
@@ -8579,8 +8954,12 @@
   {
     "id": "findingstartups-com",
     "name": "Findingstartups.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://findingstartups.com",
     "urlTemplate": "",
     "description": "",
@@ -8592,8 +8971,10 @@
   {
     "id": "findr-fans",
     "name": "Findr.fans",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://findr.fans",
     "urlTemplate": "",
     "description": "",
@@ -8631,7 +9012,7 @@
   {
     "id": "fivethirtyeight",
     "name": "FiveThirtyEight",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://fivethirtyeight.com/?s=",
     "urlTemplate": "",
@@ -8644,8 +9025,11 @@
   {
     "id": "fleetmon",
     "name": "FleetMon",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://www.fleetmon.com",
     "urlTemplate": "",
     "description": "",
@@ -8670,8 +9054,11 @@
   {
     "id": "flowscan-org",
     "name": "Flowscan.org",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "https://flowscan.org",
     "urlTemplate": "",
     "description": "",
@@ -8699,8 +9086,10 @@
   {
     "id": "followeraudit",
     "name": "FollowerAudit",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://www.followeraudit.com",
     "urlTemplate": "",
     "description": "",
@@ -8712,8 +9101,10 @@
   {
     "id": "fonetask",
     "name": "FONETASK",
-    "category": "general",
-    "inputTypes": [],
+    "category": "phone",
+    "inputTypes": [
+      "phone"
+    ],
     "url": "http://fonetask.com",
     "urlTemplate": "",
     "description": "",
@@ -8751,8 +9142,11 @@
   {
     "id": "fortiguard",
     "name": "FortiGuard",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "http://www.fortiguard.com",
     "urlTemplate": "",
     "description": "",
@@ -8764,8 +9158,10 @@
   {
     "id": "fotoforensics",
     "name": "FotoForensics",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://fotoforensics.com",
     "urlTemplate": "",
     "description": "",
@@ -8790,8 +9186,11 @@
   {
     "id": "fred",
     "name": "FRED",
-    "category": "general",
-    "inputTypes": [],
+    "category": "domain",
+    "inputTypes": [
+      "domain",
+      "url"
+    ],
     "url": "https://www.pinguin.lu/fred",
     "urlTemplate": "",
     "description": "",
@@ -8803,7 +9202,7 @@
   {
     "id": "free-music-search",
     "name": "Free Music Search",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "http://musgle.com",
     "urlTemplate": "",
@@ -8816,8 +9215,11 @@
   {
     "id": "free-online-network-tools",
     "name": "Free online network tools",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "https://centralops.net/co",
     "urlTemplate": "",
     "description": "",
@@ -8868,8 +9270,12 @@
   {
     "id": "german-gov-employee-database-unknown",
     "name": "German Gov Employee Database (Unknown)",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0acz339.caspio.com/dp/E171600054612b9f79fb4ddf8f2b",
     "urlTemplate": "",
     "description": "",
@@ -8907,8 +9313,12 @@
   {
     "id": "gettysburg-pa-adams-county-2017-payroll",
     "name": "Gettysburg PA Adams County 2017 Payroll",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/0a9210006f0ddf22afd8417f9711",
     "urlTemplate": "",
     "description": "",
@@ -8920,8 +9330,10 @@
   {
     "id": "ghostcodes-com",
     "name": "Ghostcodes.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://www.ghostcodes.com",
     "urlTemplate": "",
     "description": "",
@@ -8933,7 +9345,7 @@
   {
     "id": "github-awesome-search",
     "name": "GitHub Awesome Search",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://github.motakasoft.com/awesome",
     "urlTemplate": "",
@@ -8946,8 +9358,12 @@
   {
     "id": "global-brownbook",
     "name": "Global Brownbook",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://www.brownbook.net",
     "urlTemplate": "",
     "description": "",
@@ -8959,8 +9375,12 @@
   {
     "id": "global-terrorism-database",
     "name": "Global Terrorism Database",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.start.umd.edu/gtd/access",
     "urlTemplate": "",
     "description": "",
@@ -8972,8 +9392,12 @@
   {
     "id": "gofindwho",
     "name": "GoFindWho",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://gofindwho.com",
     "urlTemplate": "",
     "description": "",
@@ -8998,8 +9422,10 @@
   {
     "id": "gogettr",
     "name": "gogettr",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://pypi.org/project/gogettr",
     "urlTemplate": "",
     "description": "",
@@ -9024,7 +9450,7 @@
   {
     "id": "goodgopher-com",
     "name": "GoodGopher.com",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://goodgopher.com",
     "urlTemplate": "",
@@ -9037,7 +9463,7 @@
   {
     "id": "google-bing",
     "name": "Google & Bing",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://one-plus.github.io/GoogleBing",
     "urlTemplate": "",
@@ -9050,7 +9476,7 @@
   {
     "id": "google-hacking-database",
     "name": "Google Hacking Database",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://www.exploit-db.com/google-hacking-database",
     "urlTemplate": "",
@@ -9063,8 +9489,12 @@
   {
     "id": "gouvernement-du-qu-bec",
     "name": "Gouvernement du Québec",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.donneesquebec.ca/organisation/gouvernement-du-quebec",
     "urlTemplate": "",
     "description": "",
@@ -9076,8 +9506,12 @@
   {
     "id": "govsalaries",
     "name": "GovSalaries",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://govsalaries.com",
     "urlTemplate": "",
     "description": "",
@@ -9089,8 +9523,10 @@
   {
     "id": "gramsize-com",
     "name": "Gramsize.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://gramsize.com",
     "urlTemplate": "",
     "description": "",
@@ -9141,8 +9577,12 @@
   {
     "id": "greater-sacramento-area-public-salaries",
     "name": "Greater Sacramento Area Public Salaries",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/c48210000605c38aa22f4080a1be",
     "urlTemplate": "",
     "description": "",
@@ -9154,8 +9594,11 @@
   {
     "id": "greylist-trace",
     "name": "Greylist Trace",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://greylisttrace.com",
     "urlTemplate": "",
     "description": "",
@@ -9225,8 +9668,12 @@
   {
     "id": "gun-dealer-inspections-the-trace",
     "name": "Gun Dealer Inspections | The Trace",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://projects.thetrace.org/inspections",
     "urlTemplate": "",
     "description": "",
@@ -9280,8 +9727,11 @@
   {
     "id": "hashatit",
     "name": "Hashatit",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.hashatit.com",
     "urlTemplate": "",
     "description": "",
@@ -9306,8 +9756,11 @@
   {
     "id": "hashes-com",
     "name": "Hashes.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://hashes.com/en/decrypt/hash",
     "urlTemplate": "",
     "description": "",
@@ -9319,8 +9772,11 @@
   {
     "id": "hashes-org",
     "name": "Hashes.org",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://hashes.org/search.php",
     "urlTemplate": "",
     "description": "",
@@ -9332,8 +9788,11 @@
   {
     "id": "hashmob-community",
     "name": "Hashmob Community",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://hashmob.net/search",
     "urlTemplate": "",
     "description": "",
@@ -9345,8 +9804,11 @@
   {
     "id": "have-i-been-zucked",
     "name": "Have I Been Zucked",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://haveibeenzucked.com",
     "urlTemplate": "",
     "description": "",
@@ -9358,8 +9820,11 @@
   {
     "id": "hawaii-traffic-cameras",
     "name": "Hawaii Traffic Cameras",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "http://goakamai.org/home",
     "urlTemplate": "",
     "description": "",
@@ -9371,8 +9836,11 @@
   {
     "id": "heartbleed-check",
     "name": "Heartbleed Check",
-    "category": "general",
-    "inputTypes": [],
+    "category": "domain",
+    "inputTypes": [
+      "domain",
+      "url"
+    ],
     "url": "https://osint.sh/heartbleed",
     "urlTemplate": "",
     "description": "",
@@ -9397,8 +9865,12 @@
   {
     "id": "high-schools-that-received-nra-grants-2010-2016",
     "name": "High schools that received NRA grants 2010-2016",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b4.caspio.com/dp/55073000c492127ebd8d4a03a06a",
     "urlTemplate": "",
     "description": "",
@@ -9423,8 +9895,11 @@
   {
     "id": "hoaxy-how-claims-spread-online",
     "name": "Hoaxy: How claims spread online",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://hoaxy.osome.iu.edu",
     "urlTemplate": "",
     "description": "",
@@ -9451,8 +9926,12 @@
   {
     "id": "home-comptroller-texas-gov",
     "name": "Home Comptroller.Texas.Gov",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://comptroller.texas.gov",
     "urlTemplate": "",
     "description": "",
@@ -9464,8 +9943,12 @@
   {
     "id": "homemetry",
     "name": "homemetry",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://homemetry.com",
     "urlTemplate": "",
     "description": "",
@@ -9493,8 +9976,11 @@
   {
     "id": "honolulu-traffic-cams",
     "name": "Honolulu Traffic Cams",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "http://www2.honolulu.gov/honolulumyway/?trafficcam",
     "urlTemplate": "",
     "description": "",
@@ -9558,8 +10044,12 @@
   {
     "id": "idcrawl",
     "name": "IDCrawl",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://www.idcrawl.com",
     "urlTemplate": "",
     "description": "",
@@ -9571,8 +10061,11 @@
   {
     "id": "ignorant",
     "name": "ignorant",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "https://pypi.org/project/ignorant",
     "urlTemplate": "",
     "description": "",
@@ -9584,8 +10077,12 @@
   {
     "id": "illinois-public-salaries",
     "name": "Illinois Public Salaries",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0ctb111.caspio.com/dp/1a7210001e4dbabdb7204962bc03",
     "urlTemplate": "",
     "description": "",
@@ -9597,8 +10094,12 @@
   {
     "id": "inciweb",
     "name": "InciWeb",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://inciweb.nwcg.gov",
     "urlTemplate": "",
     "description": "",
@@ -9610,8 +10111,12 @@
   {
     "id": "infobel",
     "name": "Infobel",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://www.infobel.com",
     "urlTemplate": "",
     "description": "",
@@ -9623,8 +10128,11 @@
   {
     "id": "informnapalm",
     "name": "INFORMNAPALM",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://informnapalm.org/db/russian-aggression/#lang=en&page=m_unit",
     "urlTemplate": "",
     "description": "",
@@ -9636,8 +10144,12 @@
   {
     "id": "infotracer",
     "name": "InfoTracer",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://infotracer.com",
     "urlTemplate": "",
     "description": "",
@@ -9649,8 +10161,10 @@
   {
     "id": "instahunt",
     "name": "InstaHunt",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://instahunt.co",
     "urlTemplate": "",
     "description": "",
@@ -9662,8 +10176,10 @@
   {
     "id": "instaloader",
     "name": "instaloader",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://pypi.org/project/instaloader",
     "urlTemplate": "",
     "description": "",
@@ -9675,8 +10191,10 @@
   {
     "id": "instalooter",
     "name": "instalooter",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://pypi.org/project/instalooter",
     "urlTemplate": "",
     "description": "",
@@ -9688,8 +10206,11 @@
   {
     "id": "intelligence-x",
     "name": "Intelligence X",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://intelx.io",
     "urlTemplate": "",
     "description": "",
@@ -9727,8 +10248,11 @@
   {
     "id": "internet-census-2012",
     "name": "Internet Census 2012",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "http://census2012.sourceforge.net/paper.html",
     "urlTemplate": "",
     "description": "",
@@ -9740,8 +10264,11 @@
   {
     "id": "intezer-analyze-code-dna-similarity",
     "name": "Intezer Analyze – Code DNA Similarity",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.intezer.com/analyze",
     "urlTemplate": "",
     "description": "",
@@ -9779,8 +10306,12 @@
   {
     "id": "iowa-cities-police-budgets",
     "name": "Iowa Cities police budgets",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://public.flourish.studio/visualisation/3168834",
     "urlTemplate": "",
     "description": "",
@@ -9792,8 +10323,11 @@
   {
     "id": "ip-search-network-entity-reputation-database",
     "name": "IP search - Network Entity Reputation Database",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "https://nerd.cesnet.cz/nerd/ips",
     "urlTemplate": "",
     "description": "",
@@ -9818,8 +10352,10 @@
   {
     "id": "ipse-io",
     "name": "Ipse.io",
-    "category": "general",
-    "inputTypes": [],
+    "category": "email",
+    "inputTypes": [
+      "email"
+    ],
     "url": "https://www.ipse.io",
     "urlTemplate": "",
     "description": "",
@@ -9831,8 +10367,11 @@
   {
     "id": "ironmarch-exposed",
     "name": "Ironmarch.exposed",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.ironmarch.exposed",
     "urlTemplate": "",
     "description": "",
@@ -9844,8 +10383,12 @@
   {
     "id": "ius-the-horizon-search-and-report",
     "name": "IUS The Horizon Search and Report",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0acy802.caspio.com/dp/cf3b6000f61f1e0724984cb28f5c",
     "urlTemplate": "",
     "description": "",
@@ -9883,8 +10426,12 @@
   {
     "id": "jimpl-com",
     "name": "jimpl.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://jimpl.com",
     "urlTemplate": "",
     "description": "",
@@ -9935,8 +10482,12 @@
   {
     "id": "kansas-restaurant-inspections",
     "name": "Kansas Restaurant Inspections",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/a1a31000af3bac4c5e434987a857",
     "urlTemplate": "",
     "description": "",
@@ -9948,8 +10499,10 @@
   {
     "id": "karma-decay",
     "name": "Karma Decay",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "http://karmadecay.com",
     "urlTemplate": "",
     "description": "",
@@ -9974,8 +10527,12 @@
   {
     "id": "katrina-spending-search",
     "name": "Katrina Spending Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/a4321000cb4905373d1946e5b33f",
     "urlTemplate": "",
     "description": "",
@@ -9987,8 +10544,11 @@
   {
     "id": "kela-underground-marketplace-intelligence",
     "name": "Kela – Underground Marketplace Intelligence",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://kela.io",
     "urlTemplate": "",
     "description": "",
@@ -10000,8 +10560,10 @@
   {
     "id": "keys-openpgp-org",
     "name": "keys.openpgp.org",
-    "category": "general",
-    "inputTypes": [],
+    "category": "email",
+    "inputTypes": [
+      "email"
+    ],
     "url": "https://keys.openpgp.org",
     "urlTemplate": "",
     "description": "",
@@ -10013,8 +10575,10 @@
   {
     "id": "kribrum",
     "name": "Kribrum",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://kribrum.io",
     "urlTemplate": "",
     "description": "",
@@ -10039,8 +10603,12 @@
   {
     "id": "lebanon-county-pa-2017-search",
     "name": "Lebanon County PA 2017 Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/0a9210001cc98f2f21004ce4a3d4",
     "urlTemplate": "",
     "description": "",
@@ -10065,8 +10633,10 @@
   {
     "id": "leolist",
     "name": "LeoList",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://www.leolist.cc",
     "urlTemplate": "",
     "description": "",
@@ -10078,8 +10648,12 @@
   {
     "id": "lexington-ky-employee-salaries-2021",
     "name": "Lexington KY Employee Salaries 2021",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0ect130.caspio.com/dp/c852100055664d756c6e441aa963",
     "urlTemplate": "",
     "description": "",
@@ -10091,8 +10665,12 @@
   {
     "id": "lexington-fayette-county-ky-health-department-restaurant-inspections",
     "name": "Lexington-Fayette County KY Health Department Restaurant Inspections",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp.asp?AppKey=883210005c5e51279b424364aab2",
     "urlTemplate": "",
     "description": "",
@@ -10104,8 +10682,11 @@
   {
     "id": "libgen",
     "name": "LibGen",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://libgen.fun",
     "urlTemplate": "",
     "description": "",
@@ -10117,8 +10698,11 @@
   {
     "id": "libgen-rs",
     "name": "Libgen.rs",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "http://libgen.rs",
     "urlTemplate": "",
     "description": "",
@@ -10130,8 +10714,11 @@
   {
     "id": "libredd-it",
     "name": "Libredd.it",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://libredd.it",
     "urlTemplate": "",
     "description": "",
@@ -10143,8 +10730,12 @@
   {
     "id": "linkbaseorg",
     "name": "LinkBaseORG",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://link-base.org",
     "urlTemplate": "",
     "description": "",
@@ -10182,8 +10773,12 @@
   {
     "id": "littlesis",
     "name": "LittleSis",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://littlesis.org",
     "urlTemplate": "",
     "description": "",
@@ -10195,8 +10790,11 @@
   {
     "id": "live-air-traffic-control",
     "name": "Live Air Traffic Control",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://www.liveatc.net",
     "urlTemplate": "",
     "description": "",
@@ -10208,8 +10806,11 @@
   {
     "id": "live-bar-and-pub-webcams",
     "name": "Live Bar and Pub Webcams",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "http://gobefore.me/cams",
     "urlTemplate": "",
     "description": "",
@@ -10221,8 +10822,11 @@
   {
     "id": "live-cams-iplivecams",
     "name": "Live Cams | Iplivecams",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.iplivecams.com/live-cams",
     "urlTemplate": "",
     "description": "",
@@ -10234,8 +10838,11 @@
   {
     "id": "live-world-webcam",
     "name": "Live World Webcam",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "http://liveworldwebcam.net",
     "urlTemplate": "",
     "description": "",
@@ -10247,8 +10854,11 @@
   {
     "id": "livecorona-co-kr",
     "name": "Livecorona.co.kr",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://livecorona.co.kr",
     "urlTemplate": "",
     "description": "",
@@ -10286,8 +10896,12 @@
   {
     "id": "lou-barletta-2017-donors",
     "name": "Lou Barletta 2017 Donors",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/0a9210001cdd2eaac90941488478",
     "urlTemplate": "",
     "description": "",
@@ -10312,8 +10926,11 @@
   {
     "id": "lyzem-blog",
     "name": "Lyzem Blog",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://lyzem.com",
     "urlTemplate": "",
     "description": "",
@@ -10325,8 +10942,12 @@
   {
     "id": "ma-middlesex-county-city-employee-salary",
     "name": "MA Middlesex County City employee salary",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0eib112.caspio.com/dp/6ee01000497ba7e2d63b46229a99",
     "urlTemplate": "",
     "description": "",
@@ -10338,8 +10959,11 @@
   {
     "id": "maersk-tracking",
     "name": "Maersk Tracking",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://www.maersk.com/tracking",
     "urlTemplate": "",
     "description": "",
@@ -10364,8 +10988,10 @@
   {
     "id": "maildrop",
     "name": "MailDrop",
-    "category": "general",
-    "inputTypes": [],
+    "category": "email",
+    "inputTypes": [
+      "email"
+    ],
     "url": "https://maildrop.cc",
     "urlTemplate": "",
     "description": "",
@@ -10377,8 +11003,12 @@
   {
     "id": "maine-county-law-enforcement-discipline-chart",
     "name": "Maine County Law Enforcement Discipline Chart",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://public.flourish.studio/visualisation/4443849",
     "urlTemplate": "",
     "description": "",
@@ -10390,8 +11020,11 @@
   {
     "id": "malpedia",
     "name": "Malpedia",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://malpedia.caad.fkie.fraunhofer.de",
     "urlTemplate": "",
     "description": "",
@@ -10403,8 +11036,11 @@
   {
     "id": "maltiverse",
     "name": "Maltiverse",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://maltiverse.com/search",
     "urlTemplate": "",
     "description": "",
@@ -10416,8 +11052,11 @@
   {
     "id": "mamont-s-open-ftp-index",
     "name": "Mamont\\'s open FTP Index",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "https://www.mmnt.net",
     "urlTemplate": "",
     "description": "",
@@ -10429,8 +11068,11 @@
   {
     "id": "mandiant-advantage",
     "name": "Mandiant Advantage",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.mandiant.com",
     "urlTemplate": "",
     "description": "",
@@ -10442,8 +11084,11 @@
   {
     "id": "mandiant-api-integration",
     "name": "Mandiant API Integration",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.mandiant.com/advantage/api",
     "urlTemplate": "",
     "description": "",
@@ -10455,8 +11100,11 @@
   {
     "id": "mandiant-incident-response",
     "name": "Mandiant Incident Response",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.fireeye.com/solutions/incident-response.html",
     "urlTemplate": "",
     "description": "",
@@ -10468,8 +11116,11 @@
   {
     "id": "mandiant-apt-tracker",
     "name": "Mandiant – APT Tracker",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.mandiant.com/resources/research/apt-groups",
     "urlTemplate": "",
     "description": "",
@@ -10481,8 +11132,12 @@
   {
     "id": "manitoba-assessment-online",
     "name": "Manitoba Assessment Online",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.gov.mb.ca/mao/public/search_select.aspx",
     "urlTemplate": "",
     "description": "",
@@ -10575,8 +11230,11 @@
   {
     "id": "meganzsearch-com",
     "name": "Meganzsearch.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.meganzsearch.com",
     "urlTemplate": "",
     "description": "",
@@ -10614,8 +11272,10 @@
   {
     "id": "metacleaner",
     "name": "Metacleaner",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://metacleaner.com",
     "urlTemplate": "",
     "description": "",
@@ -10627,8 +11287,10 @@
   {
     "id": "metadefender",
     "name": "MetaDefender",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://metadefender.opswat.com",
     "urlTemplate": "",
     "description": "",
@@ -10640,7 +11302,7 @@
   {
     "id": "metager-privacy-protected-search",
     "name": "MetaGer: Privacy Protected Search",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://metager3.de/en",
     "urlTemplate": "",
@@ -10692,8 +11354,12 @@
   {
     "id": "michigan-ppp-loans",
     "name": "Michigan PPP loans",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0eib122.caspio.com/dp/74321000d4c16abc2baf480b8934",
     "urlTemplate": "",
     "description": "",
@@ -10705,8 +11371,12 @@
   {
     "id": "michigan-resident-database",
     "name": "Michigan Resident Database",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.michiganresidentdatabase.com",
     "urlTemplate": "",
     "description": "",
@@ -10718,8 +11388,10 @@
   {
     "id": "milled",
     "name": "Milled",
-    "category": "general",
-    "inputTypes": [],
+    "category": "email",
+    "inputTypes": [
+      "email"
+    ],
     "url": "https://milled.com/search",
     "urlTemplate": "",
     "description": "",
@@ -10731,7 +11403,7 @@
   {
     "id": "million-short",
     "name": "Million Short",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://millionshort.com",
     "urlTemplate": "",
@@ -10744,8 +11416,12 @@
   {
     "id": "milwaukee-wisconsin-city-employee-salaries-2019",
     "name": "Milwaukee Wisconsin City Employee Salaries 2019",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0ebl104.caspio.com/dp/eab010008ed5ca97d7404269bf89",
     "urlTemplate": "",
     "description": "",
@@ -10757,8 +11433,10 @@
   {
     "id": "minipaint",
     "name": "miniPaint",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://viliusle.github.io/miniPaint",
     "urlTemplate": "",
     "description": "",
@@ -10770,8 +11448,10 @@
   {
     "id": "mit-pgp-key-server",
     "name": "MIT PGP Key Server",
-    "category": "general",
-    "inputTypes": [],
+    "category": "email",
+    "inputTypes": [
+      "email"
+    ],
     "url": "https://pgp.mit.edu",
     "urlTemplate": "",
     "description": "",
@@ -10783,8 +11463,12 @@
   {
     "id": "mobile-al-salaries-search-and-report",
     "name": "Mobile AL Salaries Search and Report",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/362210004ae292fb5cf34f0fb0079",
     "urlTemplate": "",
     "description": "",
@@ -10812,7 +11496,7 @@
   {
     "id": "mojeek",
     "name": "Mojeek",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://www.mojeek.com",
     "urlTemplate": "",
@@ -10825,7 +11509,7 @@
   {
     "id": "monster-crawler-search",
     "name": "Monster Crawler Search",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "http://monstercrawler.com",
     "urlTemplate": "",
@@ -10838,8 +11522,12 @@
   {
     "id": "muckrock",
     "name": "MuckRock",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.muckrock.com",
     "urlTemplate": "",
     "description": "",
@@ -10864,8 +11552,10 @@
   {
     "id": "museo",
     "name": "Museo",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://museo.app",
     "urlTemplate": "",
     "description": "",
@@ -10955,8 +11645,12 @@
   {
     "id": "new-england-facts",
     "name": "New England Facts",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://newenglandfacts.com",
     "urlTemplate": "",
     "description": "",
@@ -10968,8 +11662,11 @@
   {
     "id": "news-search",
     "name": "News Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://upstract.com/search",
     "urlTemplate": "",
     "description": "",
@@ -10981,8 +11678,11 @@
   {
     "id": "newsnow",
     "name": "Newsnow",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://www.newsnow.co.uk",
     "urlTemplate": "",
     "description": "",
@@ -10994,8 +11694,11 @@
   {
     "id": "newspapers-com",
     "name": "Newspapers.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://www.newspapers.com",
     "urlTemplate": "",
     "description": "",
@@ -11033,8 +11736,10 @@
   {
     "id": "nitter-ca",
     "name": "Nitter.ca",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://nitter.ca",
     "urlTemplate": "",
     "description": "",
@@ -11046,8 +11751,10 @@
   {
     "id": "nitter-it",
     "name": "Nitter.it",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://nitter.it",
     "urlTemplate": "",
     "description": "",
@@ -11072,8 +11779,10 @@
   {
     "id": "nomerogram-ru",
     "name": "Nomerogram.ru",
-    "category": "general",
-    "inputTypes": [],
+    "category": "phone",
+    "inputTypes": [
+      "phone"
+    ],
     "url": "https://www.nomerogram.ru",
     "urlTemplate": "",
     "description": "",
@@ -11098,8 +11807,12 @@
   {
     "id": "nsopw",
     "name": "NSOPW",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.nsopw.gov",
     "urlTemplate": "",
     "description": "",
@@ -11124,8 +11837,12 @@
   {
     "id": "nursing-home-inspect",
     "name": "Nursing Home Inspect",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://projects.propublica.org/nursing-homes",
     "urlTemplate": "",
     "description": "",
@@ -11137,8 +11854,12 @@
   {
     "id": "nuwber",
     "name": "Nuwber",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://nuwber.com",
     "urlTemplate": "",
     "description": "",
@@ -11189,8 +11910,12 @@
   {
     "id": "ny-rent-regulated-building-search",
     "name": "NY Rent Regulated Building Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://apps.hcr.ny.gov/BuildingSearch",
     "urlTemplate": "",
     "description": "",
@@ -11202,8 +11927,12 @@
   {
     "id": "nypd-misconduct-complaint-database",
     "name": "NYPD Misconduct Complaint Database",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://nyclu.shinyapps.io/CCRB_combo",
     "urlTemplate": "",
     "description": "",
@@ -11241,8 +11970,11 @@
   {
     "id": "octosearch-dootech-com",
     "name": "Octosearch.dootech.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "https://octosearch.dootech.com",
     "urlTemplate": "",
     "description": "",
@@ -11267,8 +11999,12 @@
   {
     "id": "oh-marijuana-docs",
     "name": "OH marijuana docs",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0eru132.caspio.com/dp/95d310003d6c2e38182a48ef9bb2",
     "urlTemplate": "",
     "description": "",
@@ -11293,8 +12029,12 @@
   {
     "id": "ohio-obituaries-death-marriage-search",
     "name": "Ohio obituaries, death & marriage Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0abe732.caspio.com/dp/679e5000cbc8c6a587bb42efa9ef",
     "urlTemplate": "",
     "description": "",
@@ -11306,8 +12046,12 @@
   {
     "id": "ohio-resident-database",
     "name": "Ohio Resident Database",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://www.ohioresidentdatabase.com",
     "urlTemplate": "",
     "description": "",
@@ -11358,8 +12102,11 @@
   {
     "id": "online-hash-crack",
     "name": "Online Hash Crack",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.onlinehashcrack.com",
     "urlTemplate": "",
     "description": "",
@@ -11397,8 +12144,10 @@
   {
     "id": "onlyfinder",
     "name": "OnlyFinder",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://onlyfinder.com",
     "urlTemplate": "",
     "description": "",
@@ -11410,8 +12159,10 @@
   {
     "id": "onlysearch-co",
     "name": "Onlysearch.co",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://onlysearch.co",
     "urlTemplate": "",
     "description": "",
@@ -11423,8 +12174,11 @@
   {
     "id": "onyphe",
     "name": "ONYPHE",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "https://www.onyphe.io",
     "urlTemplate": "",
     "description": "",
@@ -11436,8 +12190,12 @@
   {
     "id": "open-data-policing",
     "name": "Open Data Policing",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://opendatapolicing.com",
     "urlTemplate": "",
     "description": "",
@@ -11449,8 +12207,10 @@
   {
     "id": "opencellid",
     "name": "OpenCelliD",
-    "category": "general",
-    "inputTypes": [],
+    "category": "phone",
+    "inputTypes": [
+      "phone"
+    ],
     "url": "https://opencellid.org",
     "urlTemplate": "",
     "description": "",
@@ -11462,8 +12222,12 @@
   {
     "id": "opendata-by-socrata",
     "name": "OpenData by Socrata",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://opendata.socrata.com",
     "urlTemplate": "",
     "description": "",
@@ -11475,8 +12239,11 @@
   {
     "id": "opendem-open-elevation-data",
     "name": "OpenDEM – Open Elevation Data",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.opendem.info",
     "urlTemplate": "",
     "description": "",
@@ -11504,8 +12271,12 @@
   {
     "id": "openoversight",
     "name": "Openoversight",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://openoversight.com",
     "urlTemplate": "",
     "description": "",
@@ -11517,8 +12288,12 @@
   {
     "id": "openpayrolls-com",
     "name": "Openpayrolls.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://openpayrolls.com",
     "urlTemplate": "",
     "description": "",
@@ -11530,8 +12305,11 @@
   {
     "id": "openphish-phishing-site-intelligence",
     "name": "OpenPhish – Phishing Site Intelligence",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://openphish.com",
     "urlTemplate": "",
     "description": "",
@@ -11556,8 +12334,11 @@
   {
     "id": "openrouteservice-routing-engine",
     "name": "OpenRouteService – Routing Engine",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.openrouteservice.org",
     "urlTemplate": "",
     "description": "",
@@ -11569,8 +12350,11 @@
   {
     "id": "opensanctions-org",
     "name": "Opensanctions.org",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://opensanctions.org",
     "urlTemplate": "",
     "description": "",
@@ -11582,8 +12366,10 @@
   {
     "id": "opentopia",
     "name": "Opentopia",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "http://www.opentopia.com",
     "urlTemplate": "",
     "description": "",
@@ -11595,8 +12381,10 @@
   {
     "id": "orfeo-toolbox-remote-sensing-processing",
     "name": "Orfeo Toolbox – Remote Sensing Processing",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://www.orfeo-toolbox.org",
     "urlTemplate": "",
     "description": "",
@@ -11608,8 +12396,11 @@
   {
     "id": "orto-website",
     "name": "Orto.website",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://orto.website",
     "urlTemplate": "",
     "description": "",
@@ -11777,8 +12568,10 @@
   {
     "id": "osintme",
     "name": "OSINTme",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://www.osintme.com",
     "urlTemplate": "",
     "description": "",
@@ -11803,8 +12596,11 @@
   {
     "id": "osrm-open-source-routing-machine",
     "name": "OSRM – Open Source Routing Machine",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://project-osrm.org",
     "urlTemplate": "",
     "description": "",
@@ -11816,8 +12612,12 @@
   {
     "id": "pa-2017-certificate-actions-education",
     "name": "PA 2017 Certificate Actions (Education)",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/0a9210006dbe656876084f9b9f59",
     "urlTemplate": "",
     "description": "",
@@ -11829,8 +12629,12 @@
   {
     "id": "pa-forfeiture-2010-2016-search",
     "name": "PA Forfeiture 2010-2016 Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/0a921000328dc970793c4364bb2a",
     "urlTemplate": "",
     "description": "",
@@ -11842,8 +12646,12 @@
   {
     "id": "pa-perry-county-2017-compensation",
     "name": "PA Perry County 2017 Compensation",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/0a921000e05cf4b592b245aeae20",
     "urlTemplate": "",
     "description": "",
@@ -11855,8 +12663,12 @@
   {
     "id": "pa-ppp-database",
     "name": "PA PPP Database",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://public.flourish.studio/visualisation/3105919",
     "urlTemplate": "",
     "description": "",
@@ -11868,8 +12680,12 @@
   {
     "id": "pa-teacher-salary-average",
     "name": "PA teacher salary average",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/0a921000a059622d4771466aab79",
     "urlTemplate": "",
     "description": "",
@@ -11894,8 +12710,11 @@
   {
     "id": "paperball-news",
     "name": "Paperball.news",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://paperball.news",
     "urlTemplate": "",
     "description": "",
@@ -11907,8 +12726,11 @@
   {
     "id": "partial-number-plate-search",
     "name": "Partial Number Plate Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://www.partialnumberplate.co.uk",
     "urlTemplate": "",
     "description": "",
@@ -11975,7 +12797,7 @@
   {
     "id": "pdfsearch-io",
     "name": "Pdfsearch.io",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://www.pdfsearch.io",
     "urlTemplate": "",
@@ -11988,8 +12810,12 @@
   {
     "id": "peekyou",
     "name": "PeekYou",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://www.peekyou.com",
     "urlTemplate": "",
     "description": "",
@@ -12001,8 +12827,10 @@
   {
     "id": "peteyvid-com",
     "name": "Peteyvid.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://www.peteyvid.com",
     "urlTemplate": "",
     "description": "",
@@ -12014,8 +12842,11 @@
   {
     "id": "phishtank-phishing-site-database",
     "name": "PhishTank – Phishing Site Database",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://phishtank.com",
     "urlTemplate": "",
     "description": "",
@@ -12027,8 +12858,10 @@
   {
     "id": "pholder",
     "name": "Pholder",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://pholder.com",
     "urlTemplate": "",
     "description": "",
@@ -12053,8 +12886,10 @@
   {
     "id": "pictriev",
     "name": "Pictriev",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "http://pictriev.com",
     "urlTemplate": "",
     "description": "",
@@ -12066,8 +12901,10 @@
   {
     "id": "pictures",
     "name": "Pictures",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://www.picsearch.com",
     "urlTemplate": "",
     "description": "",
@@ -12079,8 +12916,10 @@
   {
     "id": "pixsy",
     "name": "Pixsy",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://www.pixsy.com",
     "urlTemplate": "",
     "description": "",
@@ -12092,8 +12931,12 @@
   {
     "id": "plain-view-project",
     "name": "Plain View Project",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.plainviewproject.org/data",
     "urlTemplate": "",
     "description": "",
@@ -12105,8 +12948,11 @@
   {
     "id": "planespotters-net",
     "name": "Planespotters.net",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://www.planespotters.net",
     "urlTemplate": "",
     "description": "",
@@ -12118,8 +12964,11 @@
   {
     "id": "plate-recognizer",
     "name": "Plate Recognizer",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://platerecognizer.com",
     "urlTemplate": "",
     "description": "",
@@ -12144,8 +12993,12 @@
   {
     "id": "police-decertifcations-search-and-report",
     "name": "Police Decertifcations Search and Report",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0acu882.caspio.com/dp/07da6000e467ebc2a444430c9c1d",
     "urlTemplate": "",
     "description": "",
@@ -12157,8 +13010,12 @@
   {
     "id": "police-surveillance-in-chicago",
     "name": "Police Surveillance in Chicago",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://redshiftzero.github.io/policesurveillance",
     "urlTemplate": "",
     "description": "",
@@ -12170,8 +13027,12 @@
   {
     "id": "police1",
     "name": "Police1",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://bloopbase.keybase.pub/ACAB/POLICEONE/index.html",
     "urlTemplate": "",
     "description": "",
@@ -12183,8 +13044,12 @@
   {
     "id": "policebrutalitydatabase-org",
     "name": "Policebrutalitydatabase.org",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.policebrutalitydatabase.org",
     "urlTemplate": "",
     "description": "",
@@ -12196,8 +13061,12 @@
   {
     "id": "policecrime-bgsu-edu",
     "name": "Policecrime.bgsu.edu",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://policecrime.bgsu.edu",
     "urlTemplate": "",
     "description": "",
@@ -12209,8 +13078,11 @@
   {
     "id": "poodle-check",
     "name": "Poodle Check",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://osint.sh/poodle",
     "urlTemplate": "",
     "description": "",
@@ -12339,8 +13211,12 @@
   {
     "id": "project-comport-impd-bpd-wpd",
     "name": "Project Comport - IMPD/BPD/WPD",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.projectcomport.org",
     "urlTemplate": "",
     "description": "",
@@ -12365,8 +13241,11 @@
   {
     "id": "project-gutenberg",
     "name": "Project Gutenberg",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://www.gutenberg.org",
     "urlTemplate": "",
     "description": "",
@@ -12378,8 +13257,11 @@
   {
     "id": "project-honey-pot-spam-intelligence",
     "name": "Project Honey Pot – Spam Intelligence",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.projecthoneypot.org",
     "urlTemplate": "",
     "description": "",
@@ -12404,8 +13286,10 @@
   {
     "id": "proofy",
     "name": "Proofy",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://proofy.io",
     "urlTemplate": "",
     "description": "",
@@ -12430,8 +13314,12 @@
   {
     "id": "proxycurl",
     "name": "Proxycurl",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://nubela.co/proxycurl",
     "urlTemplate": "",
     "description": "",
@@ -12456,8 +13344,10 @@
   {
     "id": "psn-resolver",
     "name": "PSN Resolver",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://playstationresolver.xyz",
     "urlTemplate": "",
     "description": "",
@@ -12469,8 +13359,12 @@
   {
     "id": "publc-com",
     "name": "Publc.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://publc.com",
     "urlTemplate": "",
     "description": "",
@@ -12482,8 +13376,11 @@
   {
     "id": "public-aws-s3-azure-search",
     "name": "Public AWS S3 & Azure Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "https://buckets.grayhatwarfare.com",
     "urlTemplate": "",
     "description": "",
@@ -12495,8 +13392,11 @@
   {
     "id": "public-buckets",
     "name": "Public Buckets",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "https://osint.sh/buckets",
     "urlTemplate": "",
     "description": "",
@@ -12508,8 +13408,11 @@
   {
     "id": "punkspider",
     "name": "Punkspider",
-    "category": "general",
-    "inputTypes": [],
+    "category": "domain",
+    "inputTypes": [
+      "domain",
+      "url"
+    ],
     "url": "https://punkspider.org",
     "urlTemplate": "",
     "description": "",
@@ -12521,8 +13424,11 @@
   {
     "id": "pushshift-io",
     "name": "pushshift.io",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://pushshift.io",
     "urlTemplate": "",
     "description": "",
@@ -12534,8 +13440,11 @@
   {
     "id": "pyproj-coordinate-systems",
     "name": "PyProj – Coordinate Systems",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://pyproj.readthedocs.io",
     "urlTemplate": "",
     "description": "",
@@ -12576,8 +13485,12 @@
   {
     "id": "quidam",
     "name": "quidam",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://pypi.org/project/quidam",
     "urlTemplate": "",
     "description": "",
@@ -12589,7 +13502,7 @@
   {
     "id": "qwant",
     "name": "Qwant",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://www.qwant.com",
     "urlTemplate": "",
@@ -12602,8 +13515,11 @@
   {
     "id": "radarbox",
     "name": "RadarBox",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://www.radarbox.com",
     "urlTemplate": "",
     "description": "",
@@ -12654,8 +13570,11 @@
   {
     "id": "ransomware-darknet-websites",
     "name": "Ransomware Darknet websites",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://sizeof.cat/post/ransomware-darknet-websites",
     "urlTemplate": "",
     "description": "",
@@ -12667,8 +13586,11 @@
   {
     "id": "ransomware-abuse-ch-ransomware-tracker",
     "name": "Ransomware.abuse.ch – Ransomware Tracker",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://ransomware.abuse.ch",
     "urlTemplate": "",
     "description": "",
@@ -12680,8 +13602,11 @@
   {
     "id": "ransomwatch",
     "name": "ransomwatch ð ð¦",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://ransomwatch.telemetry.ltd/#/INDEX",
     "urlTemplate": "",
     "description": "",
@@ -12693,8 +13618,11 @@
   {
     "id": "rasterio-raster-data-analysis",
     "name": "Rasterio – Raster Data Analysis",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://rasterio.readthedocs.io",
     "urlTemplate": "",
     "description": "",
@@ -12706,8 +13634,12 @@
   {
     "id": "rcmp-death-search",
     "name": "RCMP Death Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0cqk108.caspio.com/dp/9156100036f195cdf0934662917c",
     "urlTemplate": "",
     "description": "",
@@ -12719,8 +13651,12 @@
   {
     "id": "rcmp-death-search-2",
     "name": "RCMP Death Search 2",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0cqk108.caspio.com/dp/915610007f161cceda514e33a0b7",
     "urlTemplate": "",
     "description": "",
@@ -12732,8 +13668,12 @@
   {
     "id": "rcmp-death-search-3",
     "name": "RCMP Death Search 3",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/91561000c38ca49de99e4ecf9619",
     "urlTemplate": "",
     "description": "",
@@ -12745,8 +13685,10 @@
   {
     "id": "readergram-com",
     "name": "Readergram.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://readergram.com",
     "urlTemplate": "",
     "description": "",
@@ -12758,8 +13700,12 @@
   {
     "id": "rechercher-par-r-gion-ou-type-de-travaux",
     "name": "Rechercher par région ou type de travaux",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.pes.rbq.gouv.qc.ca/RegistreLicences/Recherche?mode=Entreprise",
     "urlTemplate": "",
     "description": "",
@@ -12784,8 +13730,11 @@
   {
     "id": "recorded-future",
     "name": "Recorded Future",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.recordedfuture.com",
     "urlTemplate": "",
     "description": "",
@@ -12797,8 +13746,11 @@
   {
     "id": "recorded-future-api",
     "name": "Recorded Future API",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://developers.recordedfuture.com",
     "urlTemplate": "",
     "description": "",
@@ -12810,8 +13762,12 @@
   {
     "id": "redective",
     "name": "Redective",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://www.redective.com",
     "urlTemplate": "",
     "description": "",
@@ -12836,8 +13792,12 @@
   {
     "id": "regional-municipality-of-durham",
     "name": "Regional Municipality of Durham",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://opendata.durham.ca",
     "urlTemplate": "",
     "description": "",
@@ -12849,8 +13809,10 @@
   {
     "id": "rehold",
     "name": "rehold",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://rehold.com",
     "urlTemplate": "",
     "description": "",
@@ -12862,8 +13824,12 @@
   {
     "id": "rejestr-sprawc-w-przest-pstw-na-tle-seksualnym",
     "name": "Rejestr Sprawców Przestępstw na Tle Seksualnym",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://rps.ms.gov.pl/pl-PL/Public#/home",
     "urlTemplate": "",
     "description": "",
@@ -12901,8 +13867,11 @@
   {
     "id": "removeddit",
     "name": "Removeddit",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://removeddit.com",
     "urlTemplate": "",
     "description": "",
@@ -12914,8 +13883,12 @@
   {
     "id": "rental-in-canada",
     "name": "Rental in Canada",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.n49.com/search/rental/1/canada",
     "urlTemplate": "",
     "description": "",
@@ -12969,8 +13942,11 @@
   {
     "id": "reveddit-com",
     "name": "Reveddit.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://www.reveddit.com",
     "urlTemplate": "",
     "description": "",
@@ -13008,8 +13984,11 @@
   {
     "id": "rfsearch-com",
     "name": "Rfsearch.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "domain",
+    "inputTypes": [
+      "domain",
+      "url"
+    ],
     "url": "http://rfsearch.com",
     "urlTemplate": "",
     "description": "",
@@ -13034,8 +14013,12 @@
   {
     "id": "rjsc-connect",
     "name": "RJSC Connect",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://rjsc.novascotia.ca",
     "urlTemplate": "",
     "description": "",
@@ -13047,8 +14030,11 @@
   {
     "id": "robtex",
     "name": "Robtex",
-    "category": "general",
-    "inputTypes": [],
+    "category": "domain",
+    "inputTypes": [
+      "domain",
+      "url"
+    ],
     "url": "https://www.robtex.com",
     "urlTemplate": "",
     "description": "",
@@ -13086,8 +14072,12 @@
   {
     "id": "royal-canadian-mounted-police",
     "name": "Royal Canadian Mounted Police",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://bloopbase.keybase.pub/ACAB/RCMP/index.html",
     "urlTemplate": "",
     "description": "",
@@ -13112,8 +14102,10 @@
   {
     "id": "same-energy",
     "name": "same.energy",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://same.energy",
     "urlTemplate": "",
     "description": "",
@@ -13125,8 +14117,12 @@
   {
     "id": "san-francisco-copwatch-database",
     "name": "San Francisco CopWatch Database",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://airtable.com/embed/shreS9yA6eWiJAmHZ/tbl0A1AfPBOaPNBhH",
     "urlTemplate": "",
     "description": "",
@@ -13138,8 +14134,12 @@
   {
     "id": "sanctions-list-search",
     "name": "Sanctions List Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://sanctionssearch.ofac.treas.gov",
     "urlTemplate": "",
     "description": "",
@@ -13203,8 +14203,12 @@
   {
     "id": "scotussearch-com",
     "name": "Scotussearch.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.scotussearch.com",
     "urlTemplate": "",
     "description": "",
@@ -13216,8 +14220,11 @@
   {
     "id": "scylla-so",
     "name": "Scylla.so",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://scylla.so",
     "urlTemplate": "",
     "description": "",
@@ -13229,8 +14236,11 @@
   {
     "id": "search-atlas",
     "name": "Search Atlas",
-    "category": "general",
-    "inputTypes": [],
+    "category": "domain",
+    "inputTypes": [
+      "domain",
+      "url"
+    ],
     "url": "https://searchatlas.org",
     "urlTemplate": "",
     "description": "",
@@ -13242,7 +14252,7 @@
   {
     "id": "search-craigslist",
     "name": "Search craigslist",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "http://searchcraigslist.org",
     "urlTemplate": "",
@@ -13283,8 +14293,12 @@
   {
     "id": "search-for-investment-fund-documents",
     "name": "Search for Investment Fund Documents",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.sedar.com/search/search_form_mf_en.htm",
     "urlTemplate": "",
     "description": "",
@@ -13309,8 +14323,12 @@
   {
     "id": "search-for-open-information-documents",
     "name": "Search for Open Information Documents",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www2.gov.bc.ca/gov/search?id=0882CD53C45A4AE1A42D5E22D8712AD8",
     "urlTemplate": "",
     "description": "",
@@ -13322,7 +14340,7 @@
   {
     "id": "search-for-tweets",
     "name": "Search For Tweets",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "http://searchfortweets1.com",
     "urlTemplate": "",
@@ -13348,7 +14366,7 @@
   {
     "id": "searchcode",
     "name": "searchcode",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://searchcode.com",
     "urlTemplate": "",
@@ -13361,7 +14379,7 @@
   {
     "id": "searcheddit",
     "name": "Searcheddit",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "http://searcheddit.com",
     "urlTemplate": "",
@@ -13374,8 +14392,10 @@
   {
     "id": "searchmy-bio",
     "name": "Searchmy.bio",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://www.searchmy.bio",
     "urlTemplate": "",
     "description": "",
@@ -13387,7 +14407,7 @@
   {
     "id": "searchpof",
     "name": "SearchPOF",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://searchpof.com",
     "urlTemplate": "",
@@ -13400,7 +14420,7 @@
   {
     "id": "searchstream-live",
     "name": "Searchstream.live",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://searchstream.live",
     "urlTemplate": "",
@@ -13413,7 +14433,7 @@
   {
     "id": "searchtempest",
     "name": "SearchTempest",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://www.searchtempest.com",
     "urlTemplate": "",
@@ -13426,7 +14446,7 @@
   {
     "id": "searx",
     "name": "Searx",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://searx.info",
     "urlTemplate": "",
@@ -13439,8 +14459,12 @@
   {
     "id": "seethroughny-pensions",
     "name": "SeeThroughNY :: Pensions",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.seethroughny.net/pensions",
     "urlTemplate": "",
     "description": "",
@@ -13452,8 +14476,11 @@
   {
     "id": "semrush",
     "name": "Semrush",
-    "category": "general",
-    "inputTypes": [],
+    "category": "domain",
+    "inputTypes": [
+      "domain",
+      "url"
+    ],
     "url": "https://www.semrush.com",
     "urlTemplate": "",
     "description": "",
@@ -13478,8 +14505,10 @@
   {
     "id": "send-text-free",
     "name": "Send Text Free",
-    "category": "general",
-    "inputTypes": [],
+    "category": "phone",
+    "inputTypes": [
+      "phone"
+    ],
     "url": "https://globfone.com/send-text",
     "urlTemplate": "",
     "description": "",
@@ -13491,8 +14520,10 @@
   {
     "id": "sendatext",
     "name": "SendaText",
-    "category": "general",
-    "inputTypes": [],
+    "category": "phone",
+    "inputTypes": [
+      "phone"
+    ],
     "url": "https://www.sendatext.co",
     "urlTemplate": "",
     "description": "",
@@ -13504,8 +14535,11 @@
   {
     "id": "sentinel-hub-time-series",
     "name": "Sentinel Hub Time Series",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://sentinel-hub.com",
     "urlTemplate": "",
     "description": "",
@@ -13517,8 +14551,12 @@
   {
     "id": "services-en-ligne",
     "name": "Services en ligne",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.pes.ctq.gouv.qc.ca/pes/faces/dossierclient/recherche.jsp",
     "urlTemplate": "",
     "description": "",
@@ -13559,7 +14597,7 @@
   {
     "id": "shopsearchengine-com",
     "name": "Shopsearchengine.com",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "http://shopsearchengine.com",
     "urlTemplate": "",
@@ -13585,8 +14623,10 @@
   {
     "id": "similarfans",
     "name": "SimilarFans",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://similarfans.com",
     "urlTemplate": "",
     "description": "",
@@ -13598,8 +14638,11 @@
   {
     "id": "similarweb",
     "name": "SimilarWeb",
-    "category": "general",
-    "inputTypes": [],
+    "category": "domain",
+    "inputTypes": [
+      "domain",
+      "url"
+    ],
     "url": "https://www.similarweb.com",
     "urlTemplate": "",
     "description": "",
@@ -13611,8 +14654,10 @@
   {
     "id": "simplelogin",
     "name": "SimpleLogin",
-    "category": "general",
-    "inputTypes": [],
+    "category": "email",
+    "inputTypes": [
+      "email"
+    ],
     "url": "https://simplelogin.io",
     "urlTemplate": "",
     "description": "",
@@ -13624,8 +14669,11 @@
   {
     "id": "skype-resolver",
     "name": "Skype Resolver",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "http://www.skypeipresolver.net/index.php",
     "urlTemplate": "",
     "description": "",
@@ -13637,8 +14685,10 @@
   {
     "id": "skype-search",
     "name": "Skype Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://www.skypli.com",
     "urlTemplate": "",
     "description": "",
@@ -13663,8 +14713,12 @@
   {
     "id": "sleeping-time",
     "name": "Sleeping Time",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "http://sleepingtime.org",
     "urlTemplate": "",
     "description": "",
@@ -13676,8 +14730,10 @@
   {
     "id": "snapdex",
     "name": "Snapdex",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://snapdex.com",
     "urlTemplate": "",
     "description": "",
@@ -13689,8 +14745,10 @@
   {
     "id": "snapscraper",
     "name": "SnapScraper",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://rhematt.github.io/Snap-Scraper",
     "urlTemplate": "",
     "description": "",
@@ -13702,8 +14760,11 @@
   {
     "id": "snopes",
     "name": "Snopes",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://www.snopes.com/?s=",
     "urlTemplate": "",
     "description": "",
@@ -13715,8 +14776,10 @@
   {
     "id": "socmint",
     "name": "SOCMINT",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://start.me/p/Wp1kpe/socmint",
     "urlTemplate": "",
     "description": "",
@@ -13728,8 +14791,10 @@
   {
     "id": "sogou",
     "name": "Sogou",
-    "category": "general",
-    "inputTypes": [],
+    "category": "image",
+    "inputTypes": [
+      "image"
+    ],
     "url": "https://pic.sogou.com",
     "urlTemplate": "",
     "description": "",
@@ -13754,8 +14819,12 @@
   {
     "id": "sortedbybirthdate",
     "name": "Sortedbybirthdate",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://sortedbybirthdate.com",
     "urlTemplate": "",
     "description": "",
@@ -13793,8 +14862,12 @@
   {
     "id": "splc-extremist-groups",
     "name": "SPLC: Extremist Groups",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.splcenter.org/fighting-hate/extremist-files/groups",
     "urlTemplate": "",
     "description": "",
@@ -13806,8 +14879,11 @@
   {
     "id": "sploitus",
     "name": "sploitus",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://sploitus.com",
     "urlTemplate": "",
     "description": "",
@@ -13819,8 +14895,11 @@
   {
     "id": "spyonweb-website-tracking-intelligence",
     "name": "SpyOnWeb – Website Tracking Intelligence",
-    "category": "general",
-    "inputTypes": [],
+    "category": "domain",
+    "inputTypes": [
+      "domain",
+      "url"
+    ],
     "url": "https://www.spyonweb.com",
     "urlTemplate": "",
     "description": "",
@@ -13832,8 +14911,11 @@
   {
     "id": "spyse",
     "name": "Spyse",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "https://spyse.com",
     "urlTemplate": "",
     "description": "",
@@ -13845,8 +14927,12 @@
   {
     "id": "spytox",
     "name": "SpyTox",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://www.spytox.com",
     "urlTemplate": "",
     "description": "",
@@ -13884,8 +14970,11 @@
   {
     "id": "srtm-digital-elevation-models",
     "name": "SRTM – Digital Elevation Models",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://dwtkns.com/srtm30m_dem",
     "urlTemplate": "",
     "description": "",
@@ -13897,8 +14986,12 @@
   {
     "id": "st-louis-county-salaries-fiscal-2020",
     "name": "St. Louis County salaries fiscal 2020",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0bkr141.caspio.com/dp/936b1000d0c132c8cbbb4f0c8c1f",
     "urlTemplate": "",
     "description": "",
@@ -13923,7 +15016,7 @@
   {
     "id": "startpage",
     "name": "Startpage",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://startpage.com",
     "urlTemplate": "",
@@ -13936,8 +15029,12 @@
   {
     "id": "startup-tracker",
     "name": "Startup Tracker",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://startuptracker.io/home",
     "urlTemplate": "",
     "description": "",
@@ -13962,8 +15059,12 @@
   {
     "id": "statistics-canada",
     "name": "Statistics Canada",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www150.statcan.gc.ca/n1/en/type/data?HPA=1",
     "urlTemplate": "",
     "description": "",
@@ -13975,8 +15076,10 @@
   {
     "id": "steam-community-search",
     "name": "Steam Community :: Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://steamcommunity.com/search/users",
     "urlTemplate": "",
     "description": "",
@@ -14040,7 +15143,7 @@
   {
     "id": "swisscows",
     "name": "swisscows",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://swisscows.com",
     "urlTemplate": "",
@@ -14066,8 +15169,10 @@
   {
     "id": "sync-me",
     "name": "SYNC.me",
-    "category": "general",
-    "inputTypes": [],
+    "category": "phone",
+    "inputTypes": [
+      "phone"
+    ],
     "url": "https://sync.me",
     "urlTemplate": "",
     "description": "",
@@ -14120,8 +15225,12 @@
   {
     "id": "texas-local-superintendent-salaries",
     "name": "Texas Local Superintendent Salaries",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b3.caspio.com/dp/5a5b1000b41b35162a3844b4b7ec",
     "urlTemplate": "",
     "description": "",
@@ -14133,8 +15242,11 @@
   {
     "id": "tfl-jamcams",
     "name": "TfL JamCams",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.tfljamcams.net",
     "urlTemplate": "",
     "description": "",
@@ -14146,8 +15258,12 @@
   {
     "id": "tgcg-members-page",
     "name": "TGCG Members Page",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c2ffn114.caspio.com/dp/e6a74000833e44e23c324a10987c",
     "urlTemplate": "",
     "description": "",
@@ -14159,8 +15275,12 @@
   {
     "id": "the-nypd-files",
     "name": "The NYPD Files",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://projects.propublica.org/nypd-ccrb",
     "urlTemplate": "",
     "description": "",
@@ -14198,8 +15318,11 @@
   {
     "id": "the-webcam-network",
     "name": "The Webcam Network",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "http://www.the-webcam-network.com",
     "urlTemplate": "",
     "description": "",
@@ -14211,8 +15334,10 @@
   {
     "id": "theharvester-2",
     "name": "theHarvester",
-    "category": "general",
-    "inputTypes": [],
+    "category": "email",
+    "inputTypes": [
+      "email"
+    ],
     "url": "https://pypi.org/project/theHarvester",
     "urlTemplate": "",
     "description": "",
@@ -14276,8 +15401,10 @@
   {
     "id": "thread-reader",
     "name": "Thread Reader",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://threadreaderapp.com",
     "urlTemplate": "",
     "description": "",
@@ -14302,8 +15429,10 @@
   {
     "id": "tidder-xyz",
     "name": "tidder.xyz",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "http://tidder.xyz",
     "urlTemplate": "",
     "description": "",
@@ -14354,8 +15483,10 @@
   {
     "id": "toutatis",
     "name": "toutatis",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://pypi.org/project/toutatis",
     "urlTemplate": "",
     "description": "",
@@ -14367,8 +15498,10 @@
   {
     "id": "tpscalls-live",
     "name": "tpscalls.live",
-    "category": "general",
-    "inputTypes": [],
+    "category": "phone",
+    "inputTypes": [
+      "phone"
+    ],
     "url": "https://www.tpscalls.live",
     "urlTemplate": "",
     "description": "",
@@ -14432,8 +15565,12 @@
   {
     "id": "trouver-une-d-cision",
     "name": "Trouver une décision",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "http://citoyens.soquij.qc.ca",
     "urlTemplate": "",
     "description": "",
@@ -14445,8 +15582,10 @@
   {
     "id": "trumail",
     "name": "Trumail",
-    "category": "general",
-    "inputTypes": [],
+    "category": "email",
+    "inputTypes": [
+      "email"
+    ],
     "url": "https://trumail.io",
     "urlTemplate": "",
     "description": "",
@@ -14458,8 +15597,11 @@
   {
     "id": "truth-or-fiction",
     "name": "Truth or Fiction",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://www.truthorfiction.com",
     "urlTemplate": "",
     "description": "",
@@ -14471,8 +15613,12 @@
   {
     "id": "truthfinder",
     "name": "TruthFinder",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://www.truthfinder.com",
     "urlTemplate": "",
     "description": "",
@@ -14484,8 +15630,12 @@
   {
     "id": "truthnest",
     "name": "TruthNest",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://app.truthnest.com",
     "urlTemplate": "",
     "description": "",
@@ -14497,8 +15647,12 @@
   {
     "id": "tsa-no-fly-list",
     "name": "TSA No-Fly List",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.no-fly-list.com",
     "urlTemplate": "",
     "description": "",
@@ -14523,8 +15677,12 @@
   {
     "id": "ttabcenter-com",
     "name": "Ttabcenter.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://ttabcenter.com",
     "urlTemplate": "",
     "description": "",
@@ -14564,8 +15722,10 @@
   {
     "id": "tweetbeaver",
     "name": "TweetBeaver",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://tweetbeaver.com",
     "urlTemplate": "",
     "description": "",
@@ -14577,8 +15737,10 @@
   {
     "id": "tweetbinder",
     "name": "TweetBinder",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://www.tweetbinder.com",
     "urlTemplate": "",
     "description": "",
@@ -14590,8 +15752,10 @@
   {
     "id": "twiangulate",
     "name": "Twiangulate",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "http://twiangulate.com/search",
     "urlTemplate": "",
     "description": "",
@@ -14618,8 +15782,10 @@
   {
     "id": "twint",
     "name": "twint",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://pypi.org/project/twint",
     "urlTemplate": "",
     "description": "",
@@ -14691,8 +15857,10 @@
   {
     "id": "twitchmetrics-net",
     "name": "Twitchmetrics.net",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://www.twitchmetrics.net",
     "urlTemplate": "",
     "description": "",
@@ -14704,8 +15872,10 @@
   {
     "id": "twitchtracker",
     "name": "TwitchTracker",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://twitchtracker.com",
     "urlTemplate": "",
     "description": "",
@@ -14717,8 +15887,11 @@
   {
     "id": "ukraine-live-cams",
     "name": "Ukraine Live Cams",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://nagix.github.io/ukraine-livecams/#5.5/47.774/31.685/0/45",
     "urlTemplate": "",
     "description": "",
@@ -14730,8 +15903,12 @@
   {
     "id": "uky-salaries-2019",
     "name": "UKY Salaries 2019",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0ect130.caspio.com/dp/c8521000eca729c2125e46c487fd",
     "urlTemplate": "",
     "description": "",
@@ -14756,8 +15933,11 @@
   {
     "id": "un-spider-space-technology",
     "name": "UN-SPIDER – Space Technology",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.un-spider.org",
     "urlTemplate": "",
     "description": "",
@@ -14769,8 +15949,12 @@
   {
     "id": "unc-system-high-paychecks",
     "name": "UNC System high paychecks",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0dzk127.caspio.com/dp/b95b1000e0821c125a8a43cd9cc1",
     "urlTemplate": "",
     "description": "",
@@ -14782,8 +15966,11 @@
   {
     "id": "uncensor-cc",
     "name": "Uncensor.cc",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://uncensor.cc",
     "urlTemplate": "",
     "description": "",
@@ -14847,8 +16034,11 @@
   {
     "id": "url-shorteners-search",
     "name": "URL Shorteners Search",
-    "category": "general",
-    "inputTypes": [],
+    "category": "domain",
+    "inputTypes": [
+      "domain",
+      "url"
+    ],
     "url": "https://shorteners.grayhatwarfare.com",
     "urlTemplate": "",
     "description": "",
@@ -14860,8 +16050,11 @@
   {
     "id": "usgs-eros-earth-resources",
     "name": "USGS EROS – Earth Resources",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.usgs.gov",
     "urlTemplate": "",
     "description": "",
@@ -14873,8 +16066,11 @@
   {
     "id": "usgs-lidar-data-elevation-models",
     "name": "USGS LiDAR Data – Elevation Models",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.usgs.gov/faqs/what-lidar-data",
     "urlTemplate": "",
     "description": "",
@@ -14886,8 +16082,11 @@
   {
     "id": "usgs-water-resources",
     "name": "USGS Water Resources",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.usgs.gov/mission-areas/water-resources",
     "urlTemplate": "",
     "description": "",
@@ -14899,8 +16098,11 @@
   {
     "id": "validfleetlist-unknown-sail-boat-database",
     "name": "ValidFleetList (unknown Sail Boat database)",
-    "category": "general",
-    "inputTypes": [],
+    "category": "vehicle",
+    "inputTypes": [
+      "license_plate",
+      "vin"
+    ],
     "url": "https://c0eru285.caspio.com/dp/0dc330002829dcc1ad864b5bb094",
     "urlTemplate": "",
     "description": "",
@@ -14912,8 +16114,10 @@
   {
     "id": "validnumber",
     "name": "ValidNumber",
-    "category": "general",
-    "inputTypes": [],
+    "category": "phone",
+    "inputTypes": [
+      "phone"
+    ],
     "url": "https://validnumber.com",
     "urlTemplate": "",
     "description": "",
@@ -14941,8 +16145,11 @@
   {
     "id": "verification-handbook",
     "name": "Verification Handbook",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://datajournalism.com/read/handbook/verification-1",
     "urlTemplate": "",
     "description": "",
@@ -14954,8 +16161,12 @@
   {
     "id": "viking-rifle-series-shooter-live-results",
     "name": "Viking Rifle Series Shooter Live Results",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://vikingrifleseries.caspio.com/dp/c8ac5000f29041f935cf42b6a641",
     "urlTemplate": "",
     "description": "",
@@ -14967,8 +16178,10 @@
   {
     "id": "vimeo-search-tool",
     "name": "Vimeo Search Tool",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://www.aware-online.com/en/osint-tools/vimeo-search-tool",
     "urlTemplate": "",
     "description": "",
@@ -14993,8 +16206,11 @@
   {
     "id": "vulmon",
     "name": "Vulmon",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://vulmon.com",
     "urlTemplate": "",
     "description": "",
@@ -15006,8 +16222,11 @@
   {
     "id": "vulnerability-exploit-database",
     "name": "Vulnerability & Exploit Database",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.rapid7.com/db",
     "urlTemplate": "",
     "description": "",
@@ -15019,8 +16238,11 @@
   {
     "id": "vx-underground-org",
     "name": "Vx-underground.org",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://vx-underground.org",
     "urlTemplate": "",
     "description": "",
@@ -15032,8 +16254,11 @@
   {
     "id": "webcam-live",
     "name": "WEBCAM LIVE",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.whatsupcams.com/en",
     "urlTemplate": "",
     "description": "",
@@ -15045,8 +16270,11 @@
   {
     "id": "webcamtaxi",
     "name": "Webcamtaxi",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.webcamtaxi.com/en",
     "urlTemplate": "",
     "description": "",
@@ -15058,7 +16286,7 @@
   {
     "id": "webfinery-source-code-search",
     "name": "Webfinery | Source Code Search",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://webfinery.com/search",
     "urlTemplate": "",
@@ -15101,7 +16329,7 @@
   {
     "id": "website-search-tool",
     "name": "Website search tool",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://www.aware-online.com/en/osint-tools/website-search-tool",
     "urlTemplate": "",
@@ -15140,8 +16368,11 @@
   {
     "id": "whaleslide",
     "name": "WhaleSlide",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://whaleslide.com",
     "urlTemplate": "",
     "description": "",
@@ -15179,8 +16410,10 @@
   {
     "id": "who-called-me",
     "name": "Who Called Me",
-    "category": "general",
-    "inputTypes": [],
+    "category": "phone",
+    "inputTypes": [
+      "phone"
+    ],
     "url": "https://www.whocalledme.com",
     "urlTemplate": "",
     "description": "",
@@ -15192,8 +16425,10 @@
   {
     "id": "who-posted-what",
     "name": "Who Posted What",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://whopostedwhat.com",
     "urlTemplate": "",
     "description": "",
@@ -15205,8 +16440,11 @@
   {
     "id": "who-is",
     "name": "Who.is",
-    "category": "general",
-    "inputTypes": [],
+    "category": "domain",
+    "inputTypes": [
+      "domain",
+      "url"
+    ],
     "url": "https://who.is",
     "urlTemplate": "",
     "description": "",
@@ -15218,8 +16456,12 @@
   {
     "id": "whosarat-com",
     "name": "WhosaRat.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://whosarat.com",
     "urlTemplate": "",
     "description": "",
@@ -15231,8 +16473,11 @@
   {
     "id": "whoxy",
     "name": "Whoxy",
-    "category": "general",
-    "inputTypes": [],
+    "category": "domain",
+    "inputTypes": [
+      "domain",
+      "url"
+    ],
     "url": "https://www.whoxy.com",
     "urlTemplate": "",
     "description": "",
@@ -15244,8 +16489,11 @@
   {
     "id": "wifispc-com",
     "name": "Wifispc.com",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "https://wifispc.com",
     "urlTemplate": "",
     "description": "",
@@ -15257,8 +16505,12 @@
   {
     "id": "wiman",
     "name": "Wiman",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://www.wiman.me",
     "urlTemplate": "",
     "description": "",
@@ -15270,8 +16522,11 @@
   {
     "id": "windy",
     "name": "Windy",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.windy.com/-Webcams/webcams",
     "urlTemplate": "",
     "description": "",
@@ -15335,8 +16590,12 @@
   {
     "id": "wisconsin-fox-river-veterans-grave-registration-database",
     "name": "Wisconsin Fox River Veterans\\' Grave Registration Database",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c3cqk813.caspio.com/dp/b201500011643c5f4c7f4bfba7d1",
     "urlTemplate": "",
     "description": "",
@@ -15361,8 +16620,12 @@
   {
     "id": "worcester-ma-employee-gross-pay",
     "name": "Worcester MA Employee Gross Pay",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://c0acu481.caspio.com/dp/e0536000108787410ed749fdb240",
     "urlTemplate": "",
     "description": "",
@@ -15387,8 +16650,11 @@
   {
     "id": "worldcam",
     "name": "WorldCam",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://worldcam.eu",
     "urlTemplate": "",
     "description": "",
@@ -15413,8 +16679,12 @@
   {
     "id": "www-infogo-gov-on-ca-infogo-home-html",
     "name": "www.infogo.gov.on.ca/infogo/home.html",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.infogo.gov.on.ca/infogo/home.html",
     "urlTemplate": "",
     "description": "",
@@ -15439,8 +16709,10 @@
   {
     "id": "xboxresolver",
     "name": "Xboxresolver",
-    "category": "general",
-    "inputTypes": [],
+    "category": "username",
+    "inputTypes": [
+      "username"
+    ],
     "url": "https://xboxresolver.com",
     "urlTemplate": "",
     "description": "",
@@ -15452,8 +16724,12 @@
   {
     "id": "xbrl-voluntary-filing-program",
     "name": "XBRL Voluntary Filing Program",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.sedar.com/issuers/issuers_en.htm",
     "urlTemplate": "",
     "description": "",
@@ -15491,8 +16767,12 @@
   {
     "id": "xrefer",
     "name": "XRefer",
-    "category": "general",
-    "inputTypes": [],
+    "category": "person",
+    "inputTypes": [
+      "person",
+      "phone",
+      "address"
+    ],
     "url": "https://www.xrefer.com",
     "urlTemplate": "",
     "description": "",
@@ -15517,8 +16797,12 @@
   {
     "id": "yearbooks",
     "name": "Yearbooks",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.e-yearbook.com",
     "urlTemplate": "",
     "description": "",
@@ -15530,8 +16814,12 @@
   {
     "id": "yearbooks-myheritage",
     "name": "Yearbooks - MyHeritage",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.myheritage.com/research/category-10010/yearbooks",
     "urlTemplate": "",
     "description": "",
@@ -15543,8 +16831,12 @@
   {
     "id": "yearbooks-high-school-yearbooks-ancestry",
     "name": "Yearbooks | High School Yearbooks | Ancestry",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://www.ancestry.com/search/collections/1265",
     "urlTemplate": "",
     "description": "",
@@ -15556,8 +16848,12 @@
   {
     "id": "york-city-pa-compensation",
     "name": "York City PA Compensation",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/0a92100001903125816c4d34a37a",
     "urlTemplate": "",
     "description": "",
@@ -15569,8 +16865,12 @@
   {
     "id": "york-county-pa-2017-write-in-report",
     "name": "York County PA 2017 Write in Report",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/0a9210000bece9f2f50642ff9cac",
     "urlTemplate": "",
     "description": "",
@@ -15582,8 +16882,12 @@
   {
     "id": "york-county-va-2017-public-salaries",
     "name": "York County VA 2017 Public Salaries",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://b2.caspio.com/dp/0a921000b12e238357df42e7affc",
     "urlTemplate": "",
     "description": "",
@@ -15769,8 +17073,11 @@
   {
     "id": "zero-day-initiative-vulnerability-disclosure",
     "name": "Zero Day Initiative – Vulnerability Disclosure",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.zerodayinitiative.com",
     "urlTemplate": "",
     "description": "",
@@ -15782,8 +17089,11 @@
   {
     "id": "zillow",
     "name": "Zillow",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.zillow.com",
     "urlTemplate": "",
     "description": "",
@@ -15795,8 +17105,11 @@
   {
     "id": "zillow-canada",
     "name": "Zillow Canada",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.zillow.com/z/canada/canada-homes",
     "urlTemplate": "",
     "description": "",
@@ -15808,7 +17121,7 @@
   {
     "id": "zoo-search",
     "name": "Zoo Search",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "https://www.metacrawler.com",
     "urlTemplate": "",
@@ -15837,8 +17150,11 @@
   {
     "id": "zoopla",
     "name": "Zoopla",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://www.zoopla.co.uk",
     "urlTemplate": "",
     "description": "",
@@ -15863,8 +17179,11 @@
   {
     "id": "zz-fo",
     "name": "ZZ.fo",
-    "category": "general",
-    "inputTypes": [],
+    "category": "domain",
+    "inputTypes": [
+      "domain",
+      "url"
+    ],
     "url": "https://zz.fo",
     "urlTemplate": "",
     "description": "",
@@ -34449,8 +35768,11 @@
   {
     "id": "abuse-ch-malware-bazaar",
     "name": "Abuse.ch – Malware Bazaar",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://bazaar.abuse.ch",
     "urlTemplate": "",
     "description": "",
@@ -34462,8 +35784,11 @@
   {
     "id": "abuse-ch-phishing-ransomware-malware-feeds",
     "name": "Abuse.ch – Phishing, Ransomware, Malware Feeds",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.abuse.ch",
     "urlTemplate": "",
     "description": "",
@@ -34475,8 +35800,11 @@
   {
     "id": "alienvault-otx-open-threat-exchange",
     "name": "AlienVault OTX – Open Threat Exchange",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://otx.alienvault.com",
     "urlTemplate": "",
     "description": "",
@@ -34488,8 +35816,11 @@
   {
     "id": "alienvault-ip-reputation-malware-analysis",
     "name": "AlienVault – IP Reputation & Malware Analysis",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.alienvault.com",
     "urlTemplate": "",
     "description": "",
@@ -34501,8 +35832,11 @@
   {
     "id": "anomali-threatstream",
     "name": "Anomali ThreatStream",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://anomali.com/products/platform",
     "urlTemplate": "",
     "description": "",
@@ -34514,8 +35848,11 @@
   {
     "id": "any-run-interactive-malware-analysis",
     "name": "ANY.RUN – Interactive Malware Analysis",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://any.run",
     "urlTemplate": "",
     "description": "",
@@ -34527,8 +35864,11 @@
   {
     "id": "api-contracts-threat-intelligence-apis",
     "name": "API Contracts – Threat Intelligence APIs",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.apicontracts.co.uk",
     "urlTemplate": "",
     "description": "",
@@ -34540,8 +35880,11 @@
   {
     "id": "bazaar",
     "name": "Bazaar",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://bazaar.abuse.ch/browse/",
     "urlTemplate": "",
     "description": "",
@@ -34553,8 +35896,11 @@
   {
     "id": "cisa-feeds-us-gov-threat-intelligence",
     "name": "CISA Feeds – US Gov Threat Intelligence",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://cisa.gov/feeds",
     "urlTemplate": "",
     "description": "",
@@ -34566,8 +35912,12 @@
   {
     "id": "coronavirus-bailouts",
     "name": "Coronavirus Bailouts",
-    "category": "general",
-    "inputTypes": [],
+    "category": "records",
+    "inputTypes": [
+      "person",
+      "address",
+      "business"
+    ],
     "url": "https://projects.propublica.org/coronavirus/bailouts",
     "urlTemplate": "",
     "description": "",
@@ -34579,8 +35929,11 @@
   {
     "id": "crowdstrike-falcon-intelligence",
     "name": "CrowdStrike Falcon Intelligence",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.crowdstrike.com/threat-intelligence",
     "urlTemplate": "",
     "description": "",
@@ -34592,7 +35945,7 @@
   {
     "id": "ctrlq-rss",
     "name": "Ctrlq RSS",
-    "category": "general",
+    "category": "dorks",
     "inputTypes": [],
     "url": "http://ctrlq.org/rss",
     "urlTemplate": "",
@@ -34605,8 +35958,11 @@
   {
     "id": "cyber-threat-intelligence",
     "name": "Cyber Threat Intelligence",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://pulsedive.com",
     "urlTemplate": "",
     "description": "",
@@ -34618,8 +35974,11 @@
   {
     "id": "elastic-threat-intelligence",
     "name": "Elastic Threat Intelligence",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.elastic.co/threat-intelligence",
     "urlTemplate": "",
     "description": "",
@@ -34631,8 +35990,11 @@
   {
     "id": "feed-exileed",
     "name": "Feed Exileed",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "http://feed.exileed.com/",
     "urlTemplate": "",
     "description": "",
@@ -34644,8 +36006,11 @@
   {
     "id": "feed-janicek",
     "name": "Feed Janicek",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "http://feed.janicek.co/",
     "urlTemplate": "",
     "description": "",
@@ -34657,8 +36022,11 @@
   {
     "id": "free-automated-malware-analysis-service",
     "name": "Free Automated Malware Analysis Service",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://hybrid-analysis.com",
     "urlTemplate": "",
     "description": "",
@@ -34670,8 +36038,11 @@
   {
     "id": "greynoise-viz",
     "name": "GreyNoise Viz",
-    "category": "general",
-    "inputTypes": [],
+    "category": "ip",
+    "inputTypes": [
+      "ip",
+      "domain"
+    ],
     "url": "https://viz.greynoise.io/",
     "urlTemplate": "",
     "description": "",
@@ -34683,8 +36054,11 @@
   {
     "id": "imperva-attack-map",
     "name": "Imperva Attack Map",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.imperva.com/cyber-threat-attack-map/",
     "urlTemplate": "",
     "description": "",
@@ -34696,8 +36070,11 @@
   {
     "id": "interactive-online-malware-analysis-sandbox",
     "name": "Interactive Online Malware Analysis Sandbox",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://app.any.run",
     "urlTemplate": "",
     "description": "",
@@ -34709,8 +36086,11 @@
   {
     "id": "joe-sandbox-advanced-malware-analysis",
     "name": "Joe Sandbox – Advanced Malware Analysis",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.joesandbox.com",
     "urlTemplate": "",
     "description": "",
@@ -34722,8 +36102,11 @@
   {
     "id": "jotti-s-malware-scan",
     "name": "Jotti\\'s malware scan",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://virusscan.jotti.org",
     "urlTemplate": "",
     "description": "",
@@ -34735,8 +36118,11 @@
   {
     "id": "malwaretech-labs",
     "name": "MalwareTech Labs",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://malwaretech.com/labs",
     "urlTemplate": "",
     "description": "",
@@ -34748,8 +36134,11 @@
   {
     "id": "metadefender-2",
     "name": "MetaDefender",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://metadefender.com/",
     "urlTemplate": "",
     "description": "",
@@ -34761,8 +36150,11 @@
   {
     "id": "misp-malware-information-sharing-platform",
     "name": "MISP – Malware Information Sharing Platform",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.misp-project.org",
     "urlTemplate": "",
     "description": "",
@@ -34774,8 +36166,11 @@
   {
     "id": "mitre-att-ck-threat-actor-behavior-framework",
     "name": "MITRE ATT&CK – Threat Actor Behavior Framework",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.mitre.org/attack",
     "urlTemplate": "",
     "description": "",
@@ -34787,8 +36182,11 @@
   {
     "id": "netscout-cyber-threat-horizon",
     "name": "NETSCOUT Cyber Threat Horizon",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://horizon.netscout.com",
     "urlTemplate": "",
     "description": "",
@@ -34800,8 +36198,11 @@
   {
     "id": "radiocells-org",
     "name": "Radiocells.org",
-    "category": "general",
-    "inputTypes": [],
+    "category": "geo",
+    "inputTypes": [
+      "address",
+      "coordinates"
+    ],
     "url": "https://radiocells.org",
     "urlTemplate": "",
     "description": "",
@@ -34813,8 +36214,11 @@
   {
     "id": "shadowserver-foundation-network-threat-data",
     "name": "Shadowserver Foundation – Network Threat Data",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.shadowserver.org",
     "urlTemplate": "",
     "description": "",
@@ -34826,8 +36230,11 @@
   {
     "id": "splunk-threat-intelligence-management",
     "name": "Splunk Threat Intelligence Management",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.splunk.com/en_us/products/splunk-threat-intelligence-management.html",
     "urlTemplate": "",
     "description": "",
@@ -34839,8 +36246,11 @@
   {
     "id": "sumo-logic-threat-intelligence",
     "name": "Sumo Logic Threat Intelligence",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.sumologic.com/threat-intelligence",
     "urlTemplate": "",
     "description": "",
@@ -34852,8 +36262,11 @@
   {
     "id": "talos-reputation",
     "name": "Talos Reputation",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://talosintelligence.com/reputation_center",
     "urlTemplate": "",
     "description": "",
@@ -34865,8 +36278,11 @@
   {
     "id": "threat-intelligence-toolkit",
     "name": "Threat Intelligence Toolkit",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://start.me/p/rxRbpo/ti",
     "urlTemplate": "",
     "description": "",
@@ -34878,8 +36294,11 @@
   {
     "id": "threatmap",
     "name": "ThreatMap",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://threatmap.checkpoint.com/",
     "urlTemplate": "",
     "description": "",
@@ -34891,8 +36310,11 @@
   {
     "id": "threatminer",
     "name": "ThreatMiner",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://www.threatminer.org",
     "urlTemplate": "",
     "description": "",
@@ -34904,8 +36326,11 @@
   {
     "id": "tweettioc",
     "name": "Tweettioc",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "http://tweettioc.com",
     "urlTemplate": "",
     "description": "",
@@ -34917,8 +36342,11 @@
   {
     "id": "urlhaus",
     "name": "URLHaus",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://urlhaus.abuse.ch/",
     "urlTemplate": "",
     "description": "",
@@ -34930,8 +36358,11 @@
   {
     "id": "virustotal-multi-engine-ioc-analysis",
     "name": "VirusTotal – Multi-Engine IOC Analysis",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://virustotal.com",
     "urlTemplate": "",
     "description": "",
@@ -34943,8 +36374,11 @@
   {
     "id": "visualping",
     "name": "Visualping",
-    "category": "general",
-    "inputTypes": [],
+    "category": "archives",
+    "inputTypes": [
+      "url",
+      "search"
+    ],
     "url": "https://visualping.io/",
     "urlTemplate": "",
     "description": "",
@@ -34956,8 +36390,11 @@
   {
     "id": "yaraify",
     "name": "YARAify",
-    "category": "general",
-    "inputTypes": [],
+    "category": "leaks",
+    "inputTypes": [
+      "email",
+      "username"
+    ],
     "url": "https://yaraify.abuse.ch/",
     "urlTemplate": "",
     "description": "",
