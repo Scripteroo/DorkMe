@@ -1,12 +1,13 @@
-# Manus Recovery Bundle
+# Manus Recovery Files
 
 Recovered source data from the original Manus.AI build of DorkMe.
 Extracted 2026-05-14 after discovering the live /tools route was returning 500.
 
-Contents of dorkme_recovered_links.zip:
-- dorkme_extracted_tools_records.csv (~175 KB, human-readable view)
-- dorkme_extracted_tools_records.json (~706 KB, full metadata — primary source for the v2 tools.json migration)
-- DorkMe Static Bundle Data Extract.md (Manus summary report)
-- dorkme_extracted_urls.csv (URL-only, redundant with the records file)
+Files:
+- dorkme_extracted_tools_records.json — 1,456 structured tool entries with category, name, URL, and metadata. Primary source for the v2 tools.json migration.
+- dorkme_extracted_tools_records.csv — same data, human-readable
+- dorkme_extracted_urls.csv — 2,432 raw URLs from the Manus scrape. Triage confirmed 99.96% are sub-pages of domains already in records.json (see TRIAGE_SUMMARY.md) — contributes no novel tools.
+- SUMMARY.md — Manus extraction report
+- TRIAGE_SUMMARY.md — bucket counts from the supplemental-URL triage
 
-Reference only — not deployed. Used alongside a newer 2,400+ tool artifact (to be added under import/) as the two input sources for the v2 rebuild.
+Reference only — not deployed.
