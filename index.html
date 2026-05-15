@@ -1,51 +1,80 @@
-<!--
-Design philosophy: Cybernetic Brutalism for DorkMe — document metadata and typography support a fast, serious public-web discovery console with display-grade headings and monospace operational text.
--->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <meta
-      name="description"
-      content="DorkMe is a fast public-web discovery console for building transparent username, name, domain, and Google dork searches."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="DorkMe" />
-    <meta property="og:title" content="DorkMe — Public Web Discovery Console" />
-    <meta
-      property="og:description"
-      content="Build transparent username, name, domain, and Google dork searches from a private static-first OSINT console."
-    />
-    <meta property="og:url" content="https://dorkme.com/" />
-    <meta property="og:image" content="https://dorkme.com/media/dorkme-logo.png" />
-    <meta property="og:image:secure_url" content="https://dorkme.com/media/dorkme-logo.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1560" />
-    <meta property="og:image:height" content="441" />
-    <meta property="og:image:alt" content="DorkMe.com public web discovery logo" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="DorkMe — Public Web Discovery Console" />
-    <meta
-      name="twitter:description"
-      content="Build transparent username, name, domain, and Google dork searches from a private static-first OSINT console."
-    />
-    <meta name="twitter:image" content="https://dorkme.com/media/dorkme-logo.png" />
-    <title>DorkMe — Public Web Discovery Console</title>
-    <link rel="icon" href="/favicon.ico" sizes="any" />
-    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
-    <script type="module" crossorigin src="/assets/index-D23FajOp.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CXedg13E.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DorkMe — OSINT Tools Directory & Google Dork Builder</title>
+  <meta name="description" content="Free directory of 2,400+ OSINT tools and a Google dork builder. Search yourself or anyone in one click. Static-first, private by default.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="media/dorkme-logo.png" type="image/png">
+</head>
+<body>
+  <header class="site-header">
+    <a href="/" class="brand">
+      <img src="media/dorkme-logo.png" alt="DorkMe" class="logo">
+      <div>
+        <h1>DorkMe</h1>
+        <p class="tagline">Static-first. Private by default.</p>
+      </div>
+    </a>
+  </header>
 
-  <body>
-    <div id="root"></div>
-  </body>
+  <main>
+    <section class="hero">
+      <h2>Build a Google dork.</h2>
+      <p class="hero-sub">Compose a precise Google search query with operators. Nothing leaves your browser — the query opens in a new tab only when you click <strong>Open in Google</strong>.</p>
+
+      <div class="dork-builder">
+        <div class="dork-grid">
+          <label><span>site:</span><input type="text" id="dork-site" placeholder="example.com"></label>
+          <label><span>filetype:</span><input type="text" id="dork-filetype" placeholder="pdf, xlsx, sql"></label>
+          <label><span>intitle:</span><input type="text" id="dork-intitle" placeholder="admin, login, dashboard"></label>
+          <label><span>inurl:</span><input type="text" id="dork-inurl" placeholder="login, wp-admin"></label>
+          <label><span>exact phrase:</span><input type="text" id="dork-exact" placeholder="confidential report"></label>
+          <label><span>exclude:</span><input type="text" id="dork-exclude" placeholder="-ads -tracker (space-separated)"></label>
+        </div>
+
+        <div class="dork-preview">
+          <span class="label">Query:</span>
+          <code id="dork-query" class="empty">your query will appear here...</code>
+        </div>
+
+        <div class="dork-actions">
+          <button id="dork-copy" class="btn btn-secondary">Copy query</button>
+          <button id="dork-launch" class="btn btn-primary">Open in Google →</button>
+          <span id="dork-feedback" class="feedback"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="router">
+      <h2>Or search yourself across 2,400+ OSINT tools.</h2>
+      <p class="hero-sub">Type anything — email, username, phone, domain, name, license plate. We detect the input type and surface tools designed for it. Detection runs locally; nothing is transmitted.</p>
+
+      <div class="smart-input-wrap">
+        <input type="text" id="smart-input" placeholder="Type to filter tools by what you have to search with...">
+        <p id="detected" class="detected"></p>
+      </div>
+
+      <div id="tool-results" class="tool-results"></div>
+    </section>
+
+    <section class="categories">
+      <h2>Or browse by category.</h2>
+      <div class="category-grid" id="category-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><strong>2,401 OSINT tools.</strong> No signups. No logs. No cookies. All queries open in new tabs; DorkMe never intermediates them.</p>
+    <nav>
+      <a href="/dorks/">Dork builder</a>
+      <a href="/all-tools/">A–Z directory</a>
+      <a href="/about/">About</a>
+    </nav>
+  </footer>
+
+  <script src="dorks.js"></script>
+  <script src="app.js"></script>
+</body>
 </html>
